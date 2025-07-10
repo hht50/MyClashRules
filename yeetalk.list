@@ -1,0 +1,17 @@
+DOMAIN-SUFFIX,agora.io
+DOMAIN-SUFFIX,paypalapp.com
+DOMAIN-SUFFIX,yeetalk.com
+DOMAIN-SUFFIX,ap.agora.io
+DOMAIN-SUFFIX,shortconn.im.qcloud.com
+DOMAIN-SUFFIX,oslogs.umeng.com
+DOMAIN-SUFFIX,tcdn.palpalapp.com
+DOMAIN-SUFFIX,yeetalk-client-net-diagnosis.cn-hangzhou.log.aliyuncs.com
+DOMAIN-SUFFIX,oser.ns.aliyuncs.com
+
+- IP-CIDR,18.176.162.64/32
+- IP-CIDR,101.251.217.26/32
+- IP-CIDR,139.159.110.147/32
+- IP-CIDR,168.138.214.216/32
+- IP-CIDR,132.226.60.241/32
+- IP-CIDR,152.69.222.146/32
+- IP-CIDR,129.154.42.98/32

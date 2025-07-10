@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,yeetalk-client-net-diagnosis.cn-hangzhou.log.aliyuncs.com
 DOMAIN-SUFFIX,oser.ns.aliyuncs.com
 DOMAIN,appapi.palpalapp.com
 DOMAIN-SUFFIX,appapi.palpalapp.
-DOMAIN-SKEYWORD,palpalapp.com
+DOMAIN-KEYWORD,palpalapp.com
 
 - IP-CIDR,18.176.162.64/32
 - IP-CIDR,101.251.217.26/32

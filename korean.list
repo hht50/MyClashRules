@@ -1,0 +1,51 @@
+  # KakaoTalk & Ecosystem
+  - 'DOMAIN-SUFFIX,kakao.com'
+  - 'DOMAIN-SUFFIX,kakaocorp.com'
+  - 'DOMAIN-SUFFIX,kauth.kakao.com'      # 认证
+  - 'DOMAIN-SUFFIX,kapi.kakao.com'       # API
+  - 'DOMAIN-SUFFIX,talk.kakao.com'
+  - 'DOMAIN-SUFFIX,talk-pilsner.kakao.com'
+  - 'DOMAIN-SUFFIX,talk-shareex.kakao.com'
+  - 'DOMAIN-SUFFIX,daum.net'
+  - 'DOMAIN-SUFFIX,logins.daum.net'
+
+  # Video & Music Streaming
+  - 'DOMAIN-SUFFIX,tving.com'
+  - 'DOMAIN-SUFFIX,wavve.com'
+  - 'DOMAIN-SUFFIX,pooq.co.kr'           # Wavve 前身
+  - 'DOMAIN-SUFFIX,coupangplay.com'
+  - 'DOMAIN-SUFFIX,melon.com'
+  - 'DOMAIN-SUFFIX,kakaoent.com'         # Melon 母公司
+  - 'DOMAIN-SUFFIX,sooplive.co.kr'       # SOOP (AfreecaTV) 韩国服务
+  - 'DOMAIN-SUFFIX,afreecatv.co.kr'      # SOOP 旧域名
+  - 'DOMAIN-SUFFIX,sooplive.com'         # SOOP 全球服务
+  - 'DOMAIN-SUFFIX,afreecatv.com'        # SOOP 旧域名
+  - 'DOMAIN-SUFFIX,netflix.com'
+  - 'DOMAIN-SUFFIX,googleusercontent.com'# 用于 YouTube 等服务的内容
+  - 'DOMAIN-SUFFIX,youtube.com'
+  - 'DOMAIN-SUFFIX,disneyplus.com'
+
+  # E-commerce & Payment
+  - 'DOMAIN-SUFFIX,coupang.com'
+  - 'DOMAIN-SUFFIX,checkout.coupang.com'
+  - 'DOMAIN-SUFFIX,cmapi.coupang.com'    # API
+  - 'DOMAIN-SUFFIX,ads-partners.coupang.com' # 合作伙伴API
+  - 'DOMAIN-SUFFIX,gmarket.co.kr'
+  - 'DOMAIN-SUFFIX,esmplus.com'          # Gmarket 卖家门户
+  - 'DOMAIN-SUFFIX,11st.co.kr'
+  - 'DOMAIN-SUFFIX,openapi.11st.co.kr'   # 11st API门户
+  - 'DOMAIN-SUFFIX,shopping.naver.com'
+  - 'DOMAIN-SUFFIX,smartstore.naver.com'
+  - 'DOMAIN-SUFFIX,ssg.com'
+  - 'DOMAIN-SUFFIX,eapi.ssgadm.com'      # SSG.com API
+  - 'DOMAIN-SUFFIX,pg-web.kakao.com'     # KakaoPay
+  - 'DOMAIN-SUFFIX,new-m.pay.naver.com'  # Naver Pay
+
+  # Search & Portals
+  - 'DOMAIN-SUFFIX,naver.com'
+  - 'DOMAIN-SUFFIX,navercorp.com'
+  - 'DOMAIN-SUFFIX,pstatic.net'          # Naver 静态内容 CDN
+  - 'DOMAIN-SUFFIX,ncloud.com'           # Naver 云平台
+  - 'DOMAIN-SUFFIX,cdn.ntruss.com'       # Naver CDN
+  - 'DOMAIN-SUFFIX,daum.net'
+  - 'DOMAIN-SUFFIX,tistory.com'          # Daum 博客平台

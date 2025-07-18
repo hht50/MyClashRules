@@ -1,4 +1,52 @@
-freedomhouse.org
-hrw.org
-ey.gov.tw
-gov.tw
+# --- 台湾政府机构 (Taiwan Government) ---
+  - DOMAIN-SUFFIX,ey.gov.tw,PROXY
+  - DOMAIN-SUFFIX,judicial.gov.tw,PROXY
+  - DOMAIN-SUFFIX,moj.gov.tw,PROXY
+  - DOMAIN-SUFFIX,mjib.gov.tw,PROXY
+  - DOMAIN-SUFFIX,ndc.gov.tw,PROXY
+  - DOMAIN-SUFFIX,mol.gov.tw,PROXY
+  - DOMAIN-SUFFIX,moea.gov.tw,PROXY
+  - DOMAIN-SUFFIX,mofa.gov.tw,PROXY
+  - DOMAIN-SUFFIX,cec.gov.tw,PROXY
+  - DOMAIN-SUFFIX,moenv.gov.tw,PROXY
+  - DOMAIN-SUFFIX,motc.gov.tw,PROXY
+  - DOMAIN-SUFFIX,taiwan.net.tw,PROXY
+  - DOMAIN-SUFFIX,moda.gov.tw,PROXY
+  - DOMAIN-SUFFIX,gov.tw,PROXY
+  - DOMAIN-SUFFIX,president.gov.tw,PROXY
+  - DOMAIN-SUFFIX,immigration.gov.tw,PROXY
+
+  # --- 国际新闻媒体 (News Media) ---
+  - DOMAIN-SUFFIX,nytimes.com,PROXY
+  - DOMAIN-SUFFIX,bbc.com,PROXY
+  - DOMAIN-SUFFIX,bbc.co.uk,PROXY
+  - DOMAIN-SUFFIX,rfa.org,PROXY
+  - DOMAIN-SUFFIX,voanews.com,PROXY
+  - DOMAIN-SUFFIX,voachinese.com,PROXY
+  - DOMAIN-SUFFIX,theguardian.com,PROXY
+  - DOMAIN-SUFFIX,reuters.com,PROXY
+  - DOMAIN-SUFFIX,wsj.com,PROXY
+  - DOMAIN-SUFFIX,bloomberg.com,PROXY
+  - DOMAIN-SUFFIX,ft.com,PROXY
+  - DOMAIN-SUFFIX,economist.com,PROXY
+  - DOMAIN-SUFFIX,time.com,PROXY
+  - DOMAIN-SUFFIX,washingtonpost.com,PROXY
+  - DOMAIN-SUFFIX,scmp.com,PROXY
+  - DOMAIN-SUFFIX,abc.net.au,PROXY
+  - DOMAIN-SUFFIX,cbc.ca,PROXY
+  - DOMAIN-SUFFIX,cnn.com,PROXY
+  - DOMAIN-SUFFIX,huffpost.com,PROXY
+  - DOMAIN-SUFFIX,theepochtimes.com,PROXY
+  - DOMAIN-SUFFIX,hongkongfp.com,PROXY
+  - DOMAIN-SUFFIX,appledaily.com,PROXY
+
+  # --- 国际非政府组织 (NGO) ---
+  - DOMAIN-SUFFIX,hrw.org,PROXY
+  - DOMAIN-SUFFIX,amnesty.org,PROXY
+  - DOMAIN-SUFFIX,freedomhouse.org,PROXY
+  - DOMAIN-SUFFIX,rsf.org,PROXY
+  - DOMAIN-SUFFIX,ishr.ch,PROXY
+  - DOMAIN-SUFFIX,tibet.net,PROXY
+  - DOMAIN-SUFFIX,uyghurcongress.org,PROXY
+  - DOMAIN-SUFFIX,faluninfo.net,PROXY
+  - DOMAIN-SUFFIX,hrichina.org,PROXY

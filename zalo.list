@@ -1,0 +1,25 @@
+# Zalo
+# >> Core Functionality (PROXY)
+  - DOMAIN-SUFFIX,zalo.me
+  - DOMAIN-SUFFIX,zaloapp.com
+  - DOMAIN-SUFFIX,zapps.me
+  - DOMAIN-SUFFIX,zalo.api
+
+# >> Content & Media (PROXY)
+  - DOMAIN-SUFFIX,zadn.vn
+  - DOMAIN-SUFFIX,zalo.video
+
+# >> Payment - ZaloPay (PROXY/DIRECT)
+  - DOMAIN-SUFFIX,zalopay.vn
+  - DOMAIN-SUFFIX,zalopay.com.vn
+
+# >> Ads & Tracking (REJECT)
+  - DOMAIN-SUFFIX,ads-platform.zalo.me
+  - DOMAIN-KEYWORD,tracking
+
+# >> VNG Infrastructure (PROXY/DIRECT)
+  - DOMAIN-SUFFIX,vng.com.vn
+  - DOMAIN-SUFFIX,vngcloud.vn
+  - DOMAIN-SUFFIX,vngdns.net
+  - DOMAIN-SUFFIX,vngdns.vn
+

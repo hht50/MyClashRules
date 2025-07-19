@@ -1,10 +1,14 @@
- - DOMAIN-SUFFIX,facebook.com,FacebookProxy
-  - DOMAIN-SUFFIX,messenger.com,FacebookProxy
-  - DOMAIN-SUFFIX,fb.com,FacebookProxy
-  - DOMAIN-SUFFIX,m.me,FacebookProxy
-  - DOMAIN-SUFFIX,msngr.com,FacebookProxy
-  - DOMAIN-SUFFIX,fbcdn.net,FacebookProxy
-  - DOMAIN-SUFFIX,fbsbx.com,FacebookProxy
-  # 这是语音和视频通话最关键的域名
-  - DOMAIN-SUFFIX,c10r.facebook.com,FacebookProxy
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,msngr.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,c10r.facebook.com
+# NAME: Instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-KEYWORD,instagram
   

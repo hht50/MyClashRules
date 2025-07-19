@@ -1,0 +1,10 @@
+ - DOMAIN-SUFFIX,facebook.com,FacebookProxy
+  - DOMAIN-SUFFIX,messenger.com,FacebookProxy
+  - DOMAIN-SUFFIX,fb.com,FacebookProxy
+  - DOMAIN-SUFFIX,m.me,FacebookProxy
+  - DOMAIN-SUFFIX,msngr.com,FacebookProxy
+  - DOMAIN-SUFFIX,fbcdn.net,FacebookProxy
+  - DOMAIN-SUFFIX,fbsbx.com,FacebookProxy
+  # 这是语音和视频通话最关键的域名
+  - DOMAIN-SUFFIX,c10r.facebook.com,FacebookProxy
+  

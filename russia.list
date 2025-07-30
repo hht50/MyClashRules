@@ -1,300 +1,218 @@
-好的，这是根据您的要求进行分类、去重和命名，并将策略更改为 “俄罗斯-負載均衡” 后的规则集。
+# 🇷🇺 俄罗斯服务规则集 (Russian Services Rule Set)
 
------
+# 基于域名的规则 (Domain-based Rules)
 
-## **🇷🇺 俄罗斯服务规则集 (Russian Services Rule Set)**
-
-### **基于域名的规则 (Domain-based Rules)**
-
-#### **社交与通讯 (Social & Communication)**
-
-```
+# 社交与通讯 (Social & Communication)
 # VKontakte, Odnoklassniki, Mail.ru, Telegram etc.
-DOMAIN-SUFFIX,api.vk.com,俄罗斯-負載均衡
-DOMAIN-SUFFIX,attachmail.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,bizml.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,cloud.vk.com,俄罗斯-負載均衡
-DOMAIN-SUFFIX,imgsmail.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,mail.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,mrgcdn.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,my.mail.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,odnoklassniki.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,ok.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,pikabu.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,smailru.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,userapi.com,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk-cdn.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk-forms.com,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk-portal.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk-static.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk-video.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk.com,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk.company,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk.me,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vk.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vkontakte.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vkuser.net,俄罗斯-負載均衡
-```
+DOMAIN-SUFFIX,api.vk.com
+DOMAIN-SUFFIX,attachmail.ru
+DOMAIN-SUFFIX,bizml.ru
+DOMAIN-SUFFIX,cloud.vk.com
+DOMAIN-SUFFIX,imgsmail.ru
+DOMAIN-SUFFIX,mail.ru
+DOMAIN-SUFFIX,mrgcdn.ru
+DOMAIN-SUFFIX,my.mail.ru
+DOMAIN-SUFFIX,odnoklassniki.ru
+DOMAIN-SUFFIX,ok.ru
+DOMAIN-SUFFIX,pikabu.ru
+DOMAIN-SUFFIX,smailru.net
+DOMAIN-SUFFIX,userapi.com
+DOMAIN-SUFFIX,vk-cdn.net
+DOMAIN-SUFFIX,vk-forms.com
+DOMAIN-SUFFIX,vk-portal.net
+DOMAIN-SUFFIX,vk-static.net
+DOMAIN-SUFFIX,vk-video.net
+DOMAIN-SUFFIX,vk.com
+DOMAIN-SUFFIX,vk.company
+DOMAIN-SUFFIX,vk.me
+DOMAIN-SUFFIX,vk.ru
+DOMAIN-SUFFIX,vkontakte.ru
+DOMAIN-SUFFIX,vkuser.net
 
------
-
-#### **搜索引擎与服务 (Search Engine & Services)**
-
-```
+# 搜索引擎与服务 (Search Engine & Services)
 # Yandex etc.
-DOMAIN-SUFFIX,api.cloud.yandex.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,auto.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,cdn.api.cloud.yandex.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,compute.api.cloud.yandex.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,dzen.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,edgecdn.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,kinopoisk.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,storage.api.cloud.yandex.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,ya.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,yandex.com.tr,俄罗斯-負載均衡
-DOMAIN-SUFFIX,yandex.net,俄罗斯-負載均衡
-DOMAIN-SUFFIX,yandex.ru,俄罗斯-負載均衡
-```
+DOMAIN-SUFFIX,api.cloud.yandex.net
+DOMAIN-SUFFIX,auto.ru
+DOMAIN-SUFFIX,cdn.api.cloud.yandex.net
+DOMAIN-SUFFIX,compute.api.cloud.yandex.net
+DOMAIN-SUFFIX,dzen.ru
+DOMAIN-SUFFIX,edgecdn.ru
+DOMAIN-SUFFIX,kinopoisk.ru
+DOMAIN-SUFFIX,storage.api.cloud.yandex.net
+DOMAIN-SUFFIX,ya.ru
+DOMAIN-SUFFIX,yandex.com.tr
+DOMAIN-SUFFIX,yandex.net
+DOMAIN-SUFFIX,yandex.ru
 
------
-
-#### **电商与分类广告 (E-commerce & Classifieds)**
-
-```
+# 电商与分类广告 (E-commerce & Classifieds)
 # Ozon, Wildberries, Avito etc.
-DOMAIN-SUFFIX,api-performance.ozon.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,avito.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,common-api.wildberries.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,content-api.wildberries.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,dns-shop.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,drom.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,marketplace-api.wildberries.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,ozon.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,performance.ozon.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,statistics-api.wildberries.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,wildberries.ru,俄罗斯-負載均衡
-```
+DOMAIN-SUFFIX,api-performance.ozon.ru
+DOMAIN-SUFFIX,avito.ru
+DOMAIN-SUFFIX,common-api.wildberries.ru
+DOMAIN-SUFFIX,content-api.wildberries.ru
+DOMAIN-SUFFIX,dns-shop.ru
+DOMAIN-SUFFIX,drom.ru
+DOMAIN-SUFFIX,marketplace-api.wildberries.ru
+DOMAIN-SUFFIX,ozon.ru
+DOMAIN-SUFFIX,performance.ozon.ru
+DOMAIN-SUFFIX,statistics-api.wildberries.ru
+DOMAIN-SUFFIX,wildberries.ru
 
------
-
-#### **银行与金融 (Banking & Finance)**
-
-```
+# 银行与金融 (Banking & Finance)
 # Sberbank, VTB, CBR etc.
-DOMAIN-SUFFIX,banki.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,cbr.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,sberbank.com,俄罗斯-負載均衡
-DOMAIN-SUFFIX,sberbank.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,vtb.ru,俄罗斯-負載均衡
-```
+DOMAIN-SUFFIX,banki.ru
+DOMAIN-SUFFIX,cbr.ru
+DOMAIN-SUFFIX,sberbank.com
+DOMAIN-SUFFIX,sberbank.ru
+DOMAIN-SUFFIX,vtb.ru
 
------
-
-#### **新闻与媒体 (News & Media)**
-
-```
+# 新闻与媒体 (News & Media)
 # RBC, RIA, Lenta, Rutube etc.
-DOMAIN-SUFFIX,gazeta.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,lenta.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,rambler.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,rbc.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,ria.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,rutube.ru,俄罗斯-負載均衡
-```
+DOMAIN-SUFFIX,gazeta.ru
+DOMAIN-SUFFIX,lenta.ru
+DOMAIN-SUFFIX,rambler.ru
+DOMAIN-SUFFIX,rbc.ru
+DOMAIN-SUFFIX,ria.ru
+DOMAIN-SUFFIX,rutube.ru
 
------
-
-#### **政府与其他 (Government & Others)**
-
-```
+# 政府与其他 (Government & Others)
 # Gosuslugi, RuStore, Gismeteo etc.
-DOMAIN-SUFFIX,dom.gosuslugi.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,gismeteo.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,gosuslugi.ru,俄罗斯-負載均衡
-DOMAIN-SUFFIX,rustore.ru,俄罗斯-負載均衡
-```
+DOMAIN-SUFFIX,dom.gosuslugi.ru
+DOMAIN-SUFFIX,gismeteo.ru
+DOMAIN-SUFFIX,gosuslugi.ru
+DOMAIN-SUFFIX,rustore.ru
 
------
+# 基于IP的规则 (IP-based Rules)
 
-### **基于IP的规则 (IP-based Rules)**
+# Yandex (AS13238)
+IP-CIDR,5.45.192.0/18
+IP-CIDR,5.255.192.0/18
+IP-CIDR,37.9.64.0/18
+IP-CIDR,37.140.128.0/18
+IP-CIDR,77.88.0.0/18
+IP-CIDR,84.252.160.0/19
+IP-CIDR,87.250.224.0/19
+IP-CIDR,92.255.112.0/20
+IP-CIDR,93.158.128.0/18
+IP-CIDR,95.108.128.0/17
+IP-CIDR,141.8.128.0/18
+IP-CIDR,178.154.128.0/19
+IP-CIDR,178.154.160.0/19
+IP-CIDR,185.32.187.0/24
+IP-CIDR,213.180.192.0/19
+IP-CIDR,2a02:6b8::/29
 
-#### **Yandex (AS13238)**
+# VK (AS47764, AS47541)
+IP-CIDR,5.61.16.0/21
+IP-CIDR,5.61.232.0/21
+IP-CIDR,5.101.40.0/22
+IP-CIDR,5.181.60.0/22
+IP-CIDR,5.188.140.0/22
+IP-CIDR,62.217.160.0/20
+IP-CIDR,87.240.128.0/18
+IP-CIDR,93.186.224.0/21
+IP-CIDR,95.163.32.0/19
+IP-CIDR,95.213.0.0/17
+IP-CIDR,128.140.168.0/21
+IP-CIDR,185.32.248.0/22
+IP-CIDR,188.93.56.0/21
+IP-CIDR,217.20.144.0/20
+IP-CIDR,217.69.128.0/20
+IP-CIDR,2a00:1148::/29
+IP-CIDR,2a00:bdc0::/33
+IP-CIDR,2a00:bdc1::/32
 
-```
-IP-CIDR,5.45.192.0/18,俄罗斯-負載均衡
-IP-CIDR,5.255.192.0/18,俄罗斯-負載均衡
-IP-CIDR,37.9.64.0/18,俄罗斯-負載均衡
-IP-CIDR,37.140.128.0/18,俄罗斯-負載均衡
-IP-CIDR,77.88.0.0/18,俄罗斯-負載均衡
-IP-CIDR,84.252.160.0/19,俄罗斯-負載均衡
-IP-CIDR,87.250.224.0/19,俄罗斯-負載均衡
-IP-CIDR,92.255.112.0/20,俄罗斯-負載均衡
-IP-CIDR,93.158.128.0/18,俄罗斯-負載均衡
-IP-CIDR,95.108.128.0/17,俄罗斯-負載均衡
-IP-CIDR,141.8.128.0/18,俄罗斯-負載均衡
-IP-CIDR,178.154.128.0/19,俄罗斯-負載均衡
-IP-CIDR,178.154.160.0/19,俄罗斯-負載均衡
-IP-CIDR,185.32.187.0/24,俄罗斯-負載均衡
-IP-CIDR,213.180.192.0/19,俄罗斯-負載均衡
-IP-CIDR,2a02:6b8::/29,俄罗斯-負載均衡
-```
+# Ozon (AS207986)
+IP-CIDR,31.130.140.0/22
+IP-CIDR,31.130.143.0/24
+IP-CIDR,194.9.208.0/24
+IP-CIDR,194.9.209.0/24
+IP-CIDR,194.9.210.0/24
+IP-CIDR,194.9.211.0/24
 
------
+# Wildberries (AS57073, AS201513)
+IP-CIDR,85.198.76.0/24
+IP-CIDR,91.230.107.0/24
+IP-CIDR,176.101.88.0/24
+IP-CIDR,185.62.200.0/23
+IP-CIDR,213.184.154.0/24
+IP-CIDR,213.184.155.0/24
+IP-CIDR,2a03:720::/32
 
-#### **VK (AS47764, AS47541)**
+# Sber (AS33844, AS35237)
+IP-CIDR,84.252.144.0/24
+IP-CIDR,84.252.148.0/24
+IP-CIDR,91.217.194.0/24
+IP-CIDR,185.157.96.0/23
+IP-CIDR,193.232.123.0/24
+IP-CIDR,194.54.14.0/24
 
-```
-IP-CIDR,5.61.16.0/21,俄罗斯-負載均衡
-IP-CIDR,5.61.232.0/21,俄罗斯-負載均衡
-IP-CIDR,5.101.40.0/22,俄罗斯-負載均衡
-IP-CIDR,5.181.60.0/22,俄罗斯-負載均衡
-IP-CIDR,5.188.140.0/22,俄罗斯-負載均衡
-IP-CIDR,62.217.160.0/20,俄罗斯-負載均衡
-IP-CIDR,87.240.128.0/18,俄罗斯-負載均衡
-IP-CIDR,93.186.224.0/21,俄罗斯-負載均衡
-IP-CIDR,95.163.32.0/19,俄罗斯-負載均衡
-IP-CIDR,95.213.0.0/17,俄罗斯-負載均衡
-IP-CIDR,128.140.168.0/21,俄罗斯-負載均衡
-IP-CIDR,185.32.248.0/22,俄罗斯-負載均衡
-IP-CIDR,188.93.56.0/21,俄罗斯-負載均衡
-IP-CIDR,217.20.144.0/20,俄罗斯-負載均衡
-IP-CIDR,217.69.128.0/20,俄罗斯-負載均衡
-IP-CIDR,2a00:1148::/29,俄罗斯-負載均衡
-IP-CIDR,2a00:bdc0::/33,俄罗斯-負載均衡
-IP-CIDR,2a00:bdc1::/32,俄罗斯-負載均衡
-```
+# Avito (AS201012)
+IP-CIDR,176.114.124.0/24
+IP-CIDR,185.89.14.0/24
+IP-CIDR,185.89.15.0/24
 
------
+# Rostelecom (AS12389)
+IP-CIDR,2.60.0.0/14
+IP-CIDR,5.136.0.0/13
+IP-CIDR,37.20.0.0/14
+IP-CIDR,78.36.0.0/15
+IP-CIDR,85.172.0.0/14
+IP-CIDR,90.150.0.0/15
+IP-CIDR,92.124.0.0/14
+IP-CIDR,94.50.0.0/15
+IP-CIDR,95.52.0.0/14
+IP-CIDR,176.48.0.0/14
+IP-CIDR,178.44.0.0/14
+IP-CIDR,178.64.0.0/13
+IP-CIDR,188.16.0.0/14
+IP-CIDR,2a00:1640::/32
+IP-CIDR,2a01:540::/32
+IP-CIDR,2a02:ad8::/32
 
-#### **Ozon (AS207986)**
+# MTS (AS8359)
+IP-CIDR,5.227.0.0/17
+IP-CIDR,62.118.0.0/16
+IP-CIDR,81.195.0.0/16
+IP-CIDR,83.237.0.0/16
+IP-CIDR,85.140.0.0/15
+IP-CIDR,89.175.0.0/16
+IP-CIDR,91.76.0.0/14
+IP-CIDR,95.153.128.0/17
+IP-CIDR,178.141.0.0/16
+IP-CIDR,213.87.0.0/16
+IP-CIDR,2a00:1fa0::/29
+IP-CIDR,2a02:28::/29
 
-```
-IP-CIDR,31.130.140.0/22,俄罗斯-負載均衡
-IP-CIDR,31.130.143.0/24,俄罗斯-負載均衡
-IP-CIDR,194.9.208.0/24,俄罗斯-負載均衡
-IP-CIDR,194.9.209.0/24,俄罗斯-負載均衡
-IP-CIDR,194.9.210.0/24,俄罗斯-負載均衡
-IP-CIDR,194.9.211.0/24,俄罗斯-負載均衡
-```
+# MegaFon (AS31133)
+IP-CIDR,31.173.0.0/16
+IP-CIDR,37.29.0.0/17
+IP-CIDR,83.149.0.0/18
+IP-CIDR,85.26.128.0/17
+IP-CIDR,94.25.128.0/17
+IP-CIDR,109.188.0.0/16
+IP-CIDR,178.176.0.0/14
+IP-CIDR,188.162.0.0/16
+IP-CIDR,188.170.0.0/16
+IP-CIDR,2a03:d000:2000::/36
 
------
-
-#### **Wildberries (AS57073, AS201513)**
-
-```
-IP-CIDR,85.198.76.0/24,俄罗斯-負載均衡
-IP-CIDR,91.230.107.0/24,俄罗斯-負載均衡
-IP-CIDR,176.101.88.0/24,俄罗斯-負載均衡
-IP-CIDR,185.62.200.0/23,俄罗斯-負載均衡
-IP-CIDR,213.184.154.0/24,俄罗斯-負載均衡
-IP-CIDR,213.184.155.0/24,俄罗斯-負載均衡
-IP-CIDR,2a03:720::/32,俄罗斯-負載均衡
-```
-
------
-
-#### **Sber (AS33844, AS35237)**
-
-```
-IP-CIDR,84.252.144.0/24,俄罗斯-負載均衡
-IP-CIDR,84.252.148.0/24,俄罗斯-負載均衡
-IP-CIDR,91.217.194.0/24,俄罗斯-負載均衡
-IP-CIDR,185.157.96.0/23,俄罗斯-負載均衡
-IP-CIDR,193.232.123.0/24,俄罗斯-負載均衡
-IP-CIDR,194.54.14.0/24,俄罗斯-負載均衡
-```
-
------
-
-#### **Avito (AS201012)**
-
-```
-IP-CIDR,176.114.124.0/24,俄罗斯-負載均衡
-IP-CIDR,185.89.14.0/24,俄罗斯-負載均衡
-IP-CIDR,185.89.15.0/24,俄罗斯-負載均衡
-```
-
------
-
-#### **Rostelecom (AS12389)**
-
-```
-IP-CIDR,2.60.0.0/14,俄罗斯-負載均衡
-IP-CIDR,5.136.0.0/13,俄罗斯-負載均衡
-IP-CIDR,37.20.0.0/14,俄罗斯-負載均衡
-IP-CIDR,78.36.0.0/15,俄罗斯-負載均衡
-IP-CIDR,85.172.0.0/14,俄罗斯-負載均衡
-IP-CIDR,90.150.0.0/15,俄罗斯-負載均衡
-IP-CIDR,92.124.0.0/14,俄罗斯-負載均衡
-IP-CIDR,94.50.0.0/15,俄罗斯-負載均衡
-IP-CIDR,95.52.0.0/14,俄罗斯-負載均衡
-IP-CIDR,176.48.0.0/14,俄罗斯-負載均衡
-IP-CIDR,178.44.0.0/14,俄罗斯-負載均衡
-IP-CIDR,178.64.0.0/13,俄罗斯-負載均衡
-IP-CIDR,188.16.0.0/14,俄罗斯-負載均衡
-IP-CIDR,2a00:1640::/32,俄罗斯-負載均衡
-IP-CIDR,2a01:540::/32,俄罗斯-負載均衡
-IP-CIDR,2a02:ad8::/32,俄罗斯-負載均衡
-```
-
------
-
-#### **MTS (AS8359)**
-
-```
-IP-CIDR,5.227.0.0/17,俄罗斯-負載均衡
-IP-CIDR,62.118.0.0/16,俄罗斯-負載均衡
-IP-CIDR,81.195.0.0/16,俄罗斯-負載均衡
-IP-CIDR,83.237.0.0/16,俄罗斯-負載均衡
-IP-CIDR,85.140.0.0/15,俄罗斯-負載均衡
-IP-CIDR,89.175.0.0/16,俄罗斯-負載均衡
-IP-CIDR,91.76.0.0/14,俄罗斯-負載均衡
-IP-CIDR,95.153.128.0/17,俄罗斯-負載均衡
-IP-CIDR,178.141.0.0/16,俄罗斯-負載均衡
-IP-CIDR,213.87.0.0/16,俄罗斯-負載均衡
-IP-CIDR,2a00:1fa0::/29,俄罗斯-負載均衡
-IP-CIDR,2a02:28::/29,俄罗斯-負載均衡
-```
-
------
-
-#### **MegaFon (AS31133)**
-
-```
-IP-CIDR,31.173.0.0/16,俄罗斯-負載均衡
-IP-CIDR,37.29.0.0/17,俄罗斯-負載均衡
-IP-CIDR,83.149.0.0/18,俄罗斯-負載均衡
-IP-CIDR,85.26.128.0/17,俄罗斯-負載均衡
-IP-CIDR,94.25.128.0/17,俄罗斯-負載均衡
-IP-CIDR,109.188.0.0/16,俄罗斯-負載均衡
-IP-CIDR,178.176.0.0/14,俄罗斯-負載均衡
-IP-CIDR,188.162.0.0/16,俄罗斯-負載均衡
-IP-CIDR,188.170.0.0/16,俄罗斯-負載均衡
-IP-CIDR,2a03:d000:2000::/36,俄罗斯-負載均衡
-```
-
------
-
-#### **VimpelCom/Beeline (AS3216, AS16345)**
-
-```
-IP-CIDR,2.95.0.0/16,俄罗斯-負載均衡
-IP-CIDR,46.16.64.0/21,俄罗斯-負載均衡
-IP-CIDR,46.42.128.0/18,俄罗斯-負載均衡
-IP-CIDR,62.141.64.0/18,俄罗斯-負載均衡
-IP-CIDR,79.104.0.0/17,俄罗斯-負載均衡
-IP-CIDR,81.211.0.0/17,俄罗斯-負載均衡
-IP-CIDR,81.222.0.0/17,俄罗斯-負載均衡
-IP-CIDR,82.142.128.0/18,俄罗斯-負載均衡
-IP-CIDR,83.220.240.0/20,俄罗斯-負載均衡
-IP-CIDR,85.249.128.0/19,俄罗斯-負載均衡
-IP-CIDR,89.112.128.0/17,俄罗斯-負載均衡
-IP-CIDR,93.80.224.0/20,俄罗斯-負載均衡
-IP-CIDR,95.30.0.0/16,俄罗斯-負載均衡
-IP-CIDR,128.71.0.0/16,俄罗斯-負載均衡
-IP-CIDR,194.67.0.0/18,俄罗斯-負載均衡
-IP-CIDR,194.186.0.0/16,俄罗斯-負載均衡
-IP-CIDR,195.239.0.0/16,俄罗斯-負載均衡
-IP-CIDR,213.33.128.0/17,俄罗斯-負載均衡
-IP-CIDR,2a00:1248::/32,俄罗斯-負載均衡
-```
+# VimpelCom/Beeline (AS3216, AS16345)
+IP-CIDR,2.95.0.0/16
+IP-CIDR,46.16.64.0/21
+IP-CIDR,46.42.128.0/18
+IP-CIDR,62.141.64.0/18
+IP-CIDR,79.104.0.0/17
+IP-CIDR,81.211.0.0/17
+IP-CIDR,81.222.0.0/17
+IP-CIDR,82.142.128.0/18
+IP-CIDR,83.220.240.0/20
+IP-CIDR,85.249.128.0/19
+IP-CIDR,89.112.128.0/17
+IP-CIDR,93.80.224.0/20
+IP-CIDR,95.30.0.0/16
+IP-CIDR,128.71.0.0/16
+IP-CIDR,194.67.0.0/18
+IP-CIDR,194.186.0.0/16
+IP-CIDR,195.239.0.0/16
+IP-CIDR,213.33.128.0/17
+IP-CIDR,2a00:1248::/32

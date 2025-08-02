@@ -1,0 +1,44 @@
+#映月 
+#备注：国内线路 (a,b,c,d,e) 直连，主线(海外)走代理
+DOMAIN-SUFFIX,a.115cdn.de,DIRECT
+DOMAIN-SUFFIX,b.115cdn.de,DIRECT
+DOMAIN-SUFFIX,c.115cdn.de,DIRECT
+DOMAIN-SUFFIX,d.115cdn.de,DIRECT
+DOMAIN-SUFFIX,e.115cdn.de,DIRECT
+DOMAIN-SUFFIX,115cdn.de,PROXY
+
+#琴鸟
+# 主线路 (cdn.lyrebirdemby.com)，优先直连
+DOMAIN-SUFFIX,cdn.lyrebirdemby.com,DIRECT
+# 机场线路 (inside.lyrebirdemby.com)，通过代理访问
+DOMAIN-SUFFIX,inside.lyrebirdemby.com,PROXY
+# 裸IP线路 (188.172.228.65)，可直连或用于反代
+IP-CIDR,188.172.228.65/32,DIRECT
+
+#levilde luminid
+# 主要线路 (eggtartemby)，访问速度可能较好，设为直连
+DOMAIN-SUFFIX,eggtartemby.itsmyduty.top,DIRECT
+# 香港和日本的 Emby 线路，为保证访问稳定，通过代理
+DOMAIN-SUFFIX,hk-slimemby.itsmyduty.top,PROXY
+DOMAIN-SUFFIX,jp-slimemby.itsmyduty.top,PROXY
+# 升级账单和赞助商线路，通常在境外，通过代理
+DOMAIN-SUFFIX,billing.levilde.com,PROXY
+DOMAIN-SUFFIX,levilde.clun.top,PROXY
+
+#nya
+# 大陆专用节点，设置为直连
+DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca,DIRECT
+DOMAIN-SUFFIX,ap-cn02.emby.bangumi.ca,DIRECT
+# 主域名及其他未指定线路，通过代理访问
+DOMAIN-SUFFIX,emby.bangumi.ca,DIRECT
+
+#垃圾影视
+DOMAIN-SUFFIX,cf.xmsl.org,PROXY
+DOMAIN-SUFFIX,up.xmsl.org,PROXY
+DOMAIN-SUFFIX,wiki.misakaf.org,PROXY
+
+#纸片人小站
+DOMAIN-SUFFIX,embyplus.org,PROXY
+
+#起点站
+DOMAIN-SUFFIX,free.28.al,PROXY

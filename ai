@@ -1,127 +1,159 @@
 # NAME: AI Services
 # AUTHOR: generated
 # REPO: user-generated
-# UPDATED: 2026-02-18
+# UPDATED: 2026-03-06
 # TOTAL: 100+
 
-# Exact hosts
-HOST,ai.azure.com,AI
-HOST,ai.google.dev,AI
-HOST,alkalimakersuite-pa.clients6.google.com,AI
-HOST,api.githubcopilot.com,AI
-HOST,api.jetbrains.ai,AI
-HOST,auth.grazie.ai,AI
-HOST,chat.openai.com.cdn.cloudflare.net,AI
-HOST,codewhisperer.us-east-1.amazonaws.com,AI
-HOST,copilot.microsoft.com,AI
-HOST,gateway.ai.cloudflare.com,AI
-HOST,generativelanguage.googleapis.com,AI
-HOST,makersuite.google.com,AI
-HOST,openai-api.arkoselabs.com,AI
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
-HOST,openaicomproductionae4b.blob.core.windows.net,AI
-HOST,production-openaicom-storage.azureedge.net,AI
-HOST,servd-anthropic-website.b-cdn.net,AI
-HOST,ai.com,AI
-HOST,ai21.com,AI
-HOST,ai21labs.com,AI
-HOST,aiplatform.googleapis.com,AI
-HOST,ampcode.ai,AI
-HOST,anthropic.com,AI
-HOST,artbreeder.com,AI
-HOST,augment.dev,AI
-HOST,augmentcode.com,AI
-HOST,business.gemini.google,AI
-HOST,cerebras.ai,AI
-HOST,character.ai,AI
-HOST,chatgpt.com,AI
-HOST,chatgpt.livekit.cloud,AI
-HOST,civitai.com,AI
-HOST,claude.ai,AI
-HOST,claude.com,AI
-HOST,clipdrop.co,AI
-HOST,codeium.com,AI
-HOST,cohere.ai,AI
-HOST,cohere.com,AI
-HOST,copy.ai,AI
-HOST,cursor.com,AI
-HOST,cursor.sh,AI
-HOST,deepinfra.com,AI
-HOST,deepmind.com,AI
-HOST,deepmind.google,AI
-HOST,descript.com,AI
-HOST,diabrowser.ai,AI
-HOST,dreamstudio.ai,AI
-HOST,elevenlabs.com,AI
-HOST,elevenlabs.io,AI
-HOST,exa.ai,AI
-HOST,fal.ai,AI
-HOST,fireflies.ai,AI
-HOST,fireworks.ai,AI
-HOST,gemini.google,AI
-HOST,gemini.google.com,AI
-HOST,generativeai.google,AI
-HOST,githubcopilot.com,AI
-HOST,grammarly.com,AI
-HOST,grok.com,AI
-HOST,groq.com,AI
-HOST,hf.co,AI
-HOST,huggingface.co,AI
-HOST,ideogram.ai,AI
-HOST,inflection.ai,AI
-HOST,jasper.ai,AI
-HOST,kaiber.ai,AI
-HOST,kilo.ai,AI
-HOST,kilocode.ai,AI
-HOST,krea.ai,AI
-HOST,lambda.ai,AI
-HOST,langchain.com,AI
-HOST,langsmith.com,AI
-HOST,leonardo.ai,AI
-HOST,llamaindex.ai,AI
-HOST,lovart.ai,AI
-HOST,luma.ai,AI
-HOST,manus.ai,AI
-HOST,manus.im,AI
-HOST,manuscdn.com,AI
-HOST,meetgeek.ai,AI
-HOST,meta.ai,AI
-HOST,midjourney.com,AI
-HOST,mistral.ai,AI
-HOST,murf.ai,AI
-HOST,oaistatic.com,AI
-HOST,oaiusercontent.com,AI
-HOST,openai.azure.com,AI
-HOST,openai.com,AI
-HOST,openaiapi-site.azureedge.net,AI
-HOST,openaicom.imgix.net,AI
-HOST,opencode.ai,AI
-HOST,openrouter.ai,AI
-HOST,opncd.ai,AI
-HOST,otter.ai,AI
-HOST,perplexity.ai,AI
-HOST,perplexity.com,AI
-HOST,phind.com,AI
-HOST,pi.ai,AI
-HOST,pika.art,AI
-HOST,playgroundai.com,AI
-HOST,poe.com,AI
-HOST,pplx.ai,AI
-HOST,qpoe.com,AI
-HOST,quillbot.com,AI
-HOST,reka.ai,AI
-HOST,replicate.com,AI
-HOST,replit.com,AI
-HOST,respeecher.com,AI
-HOST,runwayml.com,AI
-HOST,rytr.me,AI
-HOST,stability.ai,AI
-HOST,sudowrite.com,AI
-HOST,suno.ai,AI
-HOST,supermaven.com,AI
-HOST,tabnine.com,AI
-HOST,together.ai,AI
-HOST,udio.com,AI
-HOST,voice.ai,AI
-HOST,watsonx.ai,AI
-HOST,windsurf.ai,A
+# ========================
+# OpenAI
+# ========================
+DOMAIN-SUFFIX,openai.com,AI
+DOMAIN-SUFFIX,chatgpt.com,AI
+DOMAIN-SUFFIX,oaistatic.com,AI
+DOMAIN-SUFFIX,oaiusercontent.com,AI
+DOMAIN-SUFFIX,openaicom.imgix.net,AI
+DOMAIN-SUFFIX,openai.azure.com,AI
+DOMAIN-SUFFIX,openai-api.arkoselabs.com,AI
+DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net,AI
+
+# ========================
+# Google AI / Gemini
+# ========================
+DOMAIN-SUFFIX,ai.google.dev,AI
+DOMAIN-SUFFIX,aiplatform.googleapis.com,AI
+DOMAIN-SUFFIX,generativeai.google,AI
+DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI
+DOMAIN-SUFFIX,gemini.google,AI
+DOMAIN-SUFFIX,makersuite.google.com,AI
+
+# ========================
+# Microsoft AI
+# ========================
+DOMAIN-SUFFIX,ai.azure.com,AI
+DOMAIN-SUFFIX,copilot.microsoft.com,AI
+DOMAIN-SUFFIX,githubcopilot.com,AI
+
+# ========================
+# Anthropic
+# ========================
+DOMAIN-SUFFIX,anthropic.com,AI
+DOMAIN-SUFFIX,claude.ai,AI
+DOMAIN-SUFFIX,claude.com,AI
+
+# ========================
+# Meta AI
+# ========================
+DOMAIN-SUFFIX,meta.ai,AI
+
+# ========================
+# xAI
+# ========================
+DOMAIN-SUFFIX,grok.com,AI
+
+# ========================
+# HuggingFace
+# ========================
+DOMAIN-SUFFIX,huggingface.co,AI
+DOMAIN-SUFFIX,hf.co,AI
+
+# ========================
+# Perplexity
+# ========================
+DOMAIN-SUFFIX,perplexity.ai,AI
+DOMAIN-SUFFIX,perplexity.com,AI
+DOMAIN-SUFFIX,pplx.ai,AI
+
+# ========================
+# Stability / Diffusion
+# ========================
+DOMAIN-SUFFIX,stability.ai,AI
+DOMAIN-SUFFIX,dreamstudio.ai,AI
+DOMAIN-SUFFIX,civitai.com,AI
+
+# ========================
+# Image / Video AI
+# ========================
+DOMAIN-SUFFIX,midjourney.com,AI
+DOMAIN-SUFFIX,runwayml.com,AI
+DOMAIN-SUFFIX,ideogram.ai,AI
+DOMAIN-SUFFIX,leonardo.ai,AI
+DOMAIN-SUFFIX,luma.ai,AI
+DOMAIN-SUFFIX,pika.art,AI
+DOMAIN-SUFFIX,kaiber.ai,AI
+DOMAIN-SUFFIX,krea.ai,AI
+DOMAIN-SUFFIX,playgroundai.com,AI
+
+# ========================
+# Voice AI
+# ========================
+DOMAIN-SUFFIX,elevenlabs.io,AI
+DOMAIN-SUFFIX,elevenlabs.com,AI
+DOMAIN-SUFFIX,murf.ai,AI
+DOMAIN-SUFFIX,respeecher.com,AI
+DOMAIN-SUFFIX,voice.ai,AI
+
+# ========================
+# Writing AI
+# ========================
+DOMAIN-SUFFIX,jasper.ai,AI
+DOMAIN-SUFFIX,copy.ai,AI
+DOMAIN-SUFFIX,rytr.me,AI
+DOMAIN-SUFFIX,sudowrite.com,AI
+DOMAIN-SUFFIX,quillbot.com,AI
+DOMAIN-SUFFIX,grammarly.com,AI
+
+# ========================
+# Coding AI
+# ========================
+DOMAIN-SUFFIX,codeium.com,AI
+DOMAIN-SUFFIX,tabnine.com,AI
+DOMAIN-SUFFIX,cursor.com,AI
+DOMAIN-SUFFIX,cursor.sh,AI
+DOMAIN-SUFFIX,replit.com,AI
+DOMAIN-SUFFIX,supermaven.com,AI
+
+# ========================
+# AI Platforms
+# ========================
+DOMAIN-SUFFIX,replicate.com,AI
+DOMAIN-SUFFIX,openrouter.ai,AI
+DOMAIN-SUFFIX,together.ai,AI
+DOMAIN-SUFFIX,deepinfra.com,AI
+DOMAIN-SUFFIX,fal.ai,AI
+DOMAIN-SUFFIX,fireworks.ai,AI
+DOMAIN-SUFFIX,groq.com,AI
+DOMAIN-SUFFIX,lambda.ai,AI
+
+# ========================
+# Chat / Assistant
+# ========================
+DOMAIN-SUFFIX,character.ai,AI
+DOMAIN-SUFFIX,poe.com,AI
+DOMAIN-SUFFIX,phind.com,AI
+DOMAIN-SUFFIX,pi.ai,AI
+DOMAIN-SUFFIX,manus.ai,AI
+DOMAIN-SUFFIX,manus.im,AI
+
+# ========================
+# Audio / Music AI
+# ========================
+DOMAIN-SUFFIX,suno.ai,AI
+DOMAIN-SUFFIX,udio.com,AI
+
+# ========================
+# Other AI Services
+# ========================
+DOMAIN-SUFFIX,cohere.ai,AI
+DOMAIN-SUFFIX,cohere.com,AI
+DOMAIN-SUFFIX,ai21.com,AI
+DOMAIN-SUFFIX,ai21labs.com,AI
+DOMAIN-SUFFIX,inflection.ai,AI
+DOMAIN-SUFFIX,reka.ai,AI
+DOMAIN-SUFFIX,exa.ai,AI
+DOMAIN-SUFFIX,otter.ai,AI
+DOMAIN-SUFFIX,meetgeek.ai,AI
+
+# ========================
+# Catch-all AI domains
+# ========================
+DOMAIN-SUFFIX,ai,AI

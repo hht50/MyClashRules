@@ -1,1 +1,25 @@
 DOMAIN-SUFFIX,sooplive.com
+# ========================
+# SOOP Live 分流规则
+# ========================
+
+DOMAIN-SUFFIX,sooplive.com
+DOMAIN-SUFFIX,www.sooplive.com
+DOMAIN-SUFFIX,api.sooplive.com
+DOMAIN-SUFFIX,static.sooplive.com
+DOMAIN-SUFFIX,cdn.sooplive.com
+DOMAIN-SUFFIX,media.sooplive.com
+DOMAIN-SUFFIX,stream.sooplive.com
+
+# 可能用到的CDN / 资源域
+DOMAIN-SUFFIX,sooplivecdn.com
+DOMAIN-SUFFIX,sooplive.net
+
+# 韩国相关（SOOP前身 AfreecaTV 生态）
+DOMAIN-SUFFIX,afreecatv.com
+DOMAIN-SUFFIX,afreeca.com
+DOMAIN-SUFFIX,afreecatv.net
+
+# 视频 / 直播流常见
+DOMAIN-KEYWORD,soop
+DOMAIN-KEYWORD,afreeca

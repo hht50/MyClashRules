@@ -1,0 +1,37 @@
+# ========================
+# Apple Intelligence / Siri / 搜索
+# 来源：https://support.apple.com/en-us/101555
+# ========================
+
+# 搜索服务：Siri / Spotlight / Safari / News / Music
+DOMAIN-SUFFIX,smoot.apple.com
+
+# Siri / 语音 / 听写
+DOMAIN,guzzoni.apple.com
+
+# 系统服务
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.mask.apple-dns.net
+
+# Apple Intelligence / Private Cloud Compute（PCC）
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,cp4.cloudflare.com
+
+
+# ========================
+# 可选（默认关闭）
+# ========================
+
+# iCloud 网关
+# DOMAIN,gateway.icloud.com
+# DOMAIN,gateway.fe2.apple-dns.net
+
+# Siri 测试 / Seed
+# DOMAIN,seed.siri.apple.com
+
+# Apple 静态资源
+# DOMAIN-SUFFIX,v.aaplimg.com
+# DOMAIN,seed-siri-apple-com.v.aaplimg.com
+# DOMAIN,smoot-searchv2-aapse1c.v.aaplimg.com

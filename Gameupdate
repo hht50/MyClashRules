@@ -1,24 +1,41 @@
 # ========================
-# 📦 游戏更新 CDN（最终完整版）
+# 📦 游戏 CDN 全整合（终极版）
 # ========================
 
+# 腾讯
 DOMAIN-SUFFIX,tcdnos.com
 DOMAIN-SUFFIX,ydcdn.com
 DOMAIN-SUFFIX,tcdn.qq.com
+DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,cdntip.com
 DOMAIN-SUFFIX,txcdn.cn
-DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,totope.com
+DOMAIN-SUFFIX,dnsv1.com
 
+# Akamai
 DOMAIN-SUFFIX,akamaihd.net
 DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,edgekey.net
 DOMAIN-SUFFIX,edgesuite.net
+DOMAIN-SUFFIX,akadns.net
 
+# AWS
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amazonaws.net
+
+# 阿里云
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,hwcdn.net
-DOMAIN-SUFFIX,bdydns.com
-DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,kunlungr.com
+
+# Cloudflare / Fastly
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cdn.cloudflare.net
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,fastlylb.net
+
+# Azure
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,msecnd.net

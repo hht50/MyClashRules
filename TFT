@@ -10,5 +10,4 @@ DOMAIN,data.riotgames.com,PROXY-SG
 DOMAIN,telemetry.sgp.pvp.net,PROXY-SG
 DOMAIN,ekg.riotgames.com,PROXY-US-IPLC
 
-# === Apple ===
-DOMAIN,sandbox.itunes.apple.com,DIRECT
+

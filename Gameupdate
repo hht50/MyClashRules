@@ -1,0 +1,24 @@
+# ========================
+# 📦 游戏更新 CDN（最终完整版）
+# ========================
+
+DOMAIN-SUFFIX,tcdnos.com
+DOMAIN-SUFFIX,ydcdn.com
+DOMAIN-SUFFIX,tcdn.qq.com
+DOMAIN-SUFFIX,cdntip.com
+DOMAIN-SUFFIX,txcdn.cn
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,totope.com
+
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,edgesuite.net
+
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,hwcdn.net
+DOMAIN-SUFFIX,bdydns.com
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,cloudflare.com

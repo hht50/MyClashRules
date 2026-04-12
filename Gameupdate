@@ -39,3 +39,59 @@ DOMAIN-SUFFIX,fastlylb.net
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,msecnd.net
+
+# ========================
+# Roblox CDN（直连优化）
+# ========================
+
+DOMAIN-SUFFIX,rbxcdn.com,DIRECT
+
+# 静态资源 CDN 节点
+DOMAIN-SUFFIX,apis.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,static.rbxcdn.com,DIRECT
+
+# Roblox 资源分片 CDN
+DOMAIN-SUFFIX,t0.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t1.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t2.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t3.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t4.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t5.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t6.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t7.rbxcdn.com,DIRECT
+
+# 资源传输 / 图片 / 模型
+DOMAIN-SUFFIX,tr.rbxcdn.com,DIRECT
+
+# ========================
+# Roblox CDN（直连优化）
+# ========================
+
+DOMAIN-SUFFIX,rbxcdn.com,DIRECT
+
+# 静态资源 CDN 节点
+DOMAIN-SUFFIX,apis.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,static.rbxcdn.com,DIRECT
+
+# Roblox 资源分片 CDN
+DOMAIN-SUFFIX,t0.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t1.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t2.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t3.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t4.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t5.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t6.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,t7.rbxcdn.com,DIRECT
+
+# 资源传输 / 图片 / 模型
+DOMAIN-SUFFIX,tr.rbxcdn.com,DIRECT
+
+# 旧 CDN / 缓存节点
+DOMAIN-SUFFIX,c0.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,c1.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,c2.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,c3.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,c4.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,c5.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,c6.rbxcdn.com,DIRECT
+DOMAIN-SUFFIX,c7.rbxcdn.com,DIRECT

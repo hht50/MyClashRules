@@ -1,0 +1,17 @@
+# ========================
+# Roblox
+# ========================
+
+# 核心域名
+DOMAIN-SUFFIX,roblox.com
+DOMAIN-SUFFIX,rbxcdn.com
+DOMAIN-SUFFIX,rbx.com
+
+# 登录 / API
+DOMAIN-SUFFIX,robloxapi.com
+
+# 兜底匹配
+DOMAIN-KEYWORD,roblox
+
+# 客户端（可选）
+USER-AGENT,Roblox*

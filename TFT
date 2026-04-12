@@ -1,13 +1,11 @@
 # === Riot Core CDN ===
-DOMAIN-SUFFIX,riotcdn.net,DIRECT
-DOMAIN-SUFFIX,riotgames.com,DIRECT
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,riotgames.com
 
 # === Services ===
-DOMAIN-SUFFIX,pvp.net,PROXY-SG
-DOMAIN,data.riotgames.com,PROXY-SG
+DOMAIN-SUFFIX,pvp.net
+DOMAIN,data.riotgames.com
 
 # === Telemetry ===
-DOMAIN,telemetry.sgp.pvp.net,PROXY-SG
-DOMAIN,ekg.riotgames.com,PROXY-US-IPLC
-
-
+DOMAIN,telemetry.sgp.pvp.net
+DOMAIN,ekg.riotgames.com

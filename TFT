@@ -1,0 +1,14 @@
+# === Riot Core CDN ===
+DOMAIN-SUFFIX,riotcdn.net,DIRECT
+DOMAIN-SUFFIX,riotgames.com,DIRECT
+
+# === Services ===
+DOMAIN-SUFFIX,pvp.net,PROXY-SG
+DOMAIN,data.riotgames.com,PROXY-SG
+
+# === Telemetry ===
+DOMAIN,telemetry.sgp.pvp.net,PROXY-SG
+DOMAIN,ekg.riotgames.com,PROXY-US-IPLC
+
+# === Apple ===
+DOMAIN,sandbox.itunes.apple.com,DIRECT

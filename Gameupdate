@@ -98,3 +98,10 @@ DOMAIN-SUFFIX,c4.rbxcdn.com,DIRECT
 DOMAIN-SUFFIX,c5.rbxcdn.com,DIRECT
 DOMAIN-SUFFIX,c6.rbxcdn.com,DIRECT
 DOMAIN-SUFFIX,c7.rbxcdn.com,DIRECT
+
+# === TFT Game CDN ===
+DOMAIN,lol.secure.dyn.riotcdn.net,DIRECT
+DOMAIN,wildrift.secure.dyn.riotcdn.net,DIRECT
+DOMAIN,valorant.secure.dyn.riotcdn.net,DIRECT
+DOMAIN,ritoplus.secure.dyn.riotcdn.net,DIRECT
+DOMAIN,riot-client.secure.dyn.riotcdn.net,DIRECT

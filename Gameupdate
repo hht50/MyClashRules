@@ -11,6 +11,8 @@ DOMAIN-SUFFIX,cdntip.com
 DOMAIN-SUFFIX,txcdn.cn
 DOMAIN-SUFFIX,dnsv1.com
 DOMAIN-SUFFIX,gjacky.com
+# 穿越火线手游 CDN
+DOMAIN-SUFFIX,cfm.gcloudcdn.qq.com
 
 # Akamai
 DOMAIN-SUFFIX,akamaihd.net

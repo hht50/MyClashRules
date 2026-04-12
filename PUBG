@@ -13,21 +13,21 @@ DOMAIN-KEYWORD,pubgmobile
 DOMAIN-KEYWORD,pubg
 DOMAIN-KEYWORD,igame
 
+# ---- 数据 / 心跳 ----
+DOMAIN-SUFFIX,tdatamaster.com
+
+# ---- 语音服务 ----
+DOMAIN-SUFFIX,gcloudcs.com
+
+# ---- 游戏节点 ----
+DOMAIN-SUFFIX,igamecj.com
+
 # ========================
 # 💥 崩溃 / 日志（直连更稳）
 # ========================
 
 DOMAIN-SUFFIX,crashsight.wetest.net
 DOMAIN-SUFFIX,bugly.qq.com
-
-
-# ========================
-# 📦 CDN / 更新（建议直连）
-# ========================
-
-DOMAIN-SUFFIX,tcdnos.com
-DOMAIN-SUFFIX,ydcdn.com
-DOMAIN-SUFFIX,totope.com
 
 
 # ========================

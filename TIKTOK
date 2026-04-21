@@ -1,0 +1,93 @@
+# ========================
+# TikTok（抖音国际版）规则 - 全量增强版
+# ========================
+
+# === DOMAIN（精确匹配）===
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,trae-api-sg.mchost.guru
+
+# --- API核心 ---
+DOMAIN,api.tiktokv.com
+DOMAIN,api-h2.tiktokv.com
+DOMAIN,api21-h2.tiktokv.com
+DOMAIN,api16-core-c-useast1a.tiktokv.com
+DOMAIN,ib.tiktokv.com
+DOMAIN,log.tiktokv.com
+DOMAIN,m.tiktok.com
+DOMAIN,vm.tiktok.com
+
+# --- musical.ly遗留 ---
+DOMAIN,api2.musical.ly
+DOMAIN,api2-16-h2.musical.ly
+DOMAIN,api2-21-h2.musical.ly
+DOMAIN,log2.musical.ly
+DOMAIN,mon.musical.ly
+
+# --- CDN视频流 ---
+DOMAIN,v16a.tiktokcdn.com
+DOMAIN,v16m.tiktokcdn.com
+DOMAIN,v19.tiktokcdn.com
+DOMAIN,pull.tiktokcdn.com
+DOMAIN,pull-flv-l1.tiktokcdn.com
+DOMAIN,pull-hls-l1.tiktokcdn.com
+DOMAIN,pull-rtmp-l1.tiktokcdn.com
+
+
+# === DOMAIN-SUFFIX（泛匹配）===
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteoversea.net
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,bytedns.net
+
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,marscode.com
+DOMAIN-SUFFIX,trae.ai
+
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,bytefcdn-oversea.com
+DOMAIN-SUFFIX,bytefcdn-ttpeu.com
+
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tik-tokapi.com
+
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,ttwebview.com
+
+# --- 广告 / 统计 ---
+DOMAIN-SUFFIX,pglstatp.com
+DOMAIN-SUFFIX,i18n-pglstatp.com
+
+
+# === DOMAIN-KEYWORD ===
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,tiktok
+
+
+# === USER-AGENT ===
+USER-AGENT,TikTok*
+
+
+# === PROCESS-NAME ===
+PROCESS-NAME,com.zhiliaoapp.musically

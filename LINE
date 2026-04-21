@@ -1,0 +1,95 @@
+# ========================
+# LINE（全生态整合版）
+# ========================
+
+# ========================
+# 核心域名
+# ========================
+DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,linecorp.com
+DOMAIN-SUFFIX,linecorp.jp
+DOMAIN-SUFFIX,line.biz
+
+# ========================
+# 日本 / Naver 体系
+# ========================
+DOMAIN-SUFFIX,line.naver.jp
+DOMAIN-SUFFIX,naver.jp
+DOMAIN-SUFFIX,nhncorp.jp
+
+# ========================
+# API / 核心通信（最关键）
+# ========================
+DOMAIN,api.line.me
+DOMAIN,access.line.me
+DOMAIN,lan.line.me
+DOMAIN,lan3rd.line.me
+DOMAIN,liff.line.me
+DOMAIN,search.line.me
+DOMAIN,media.line.me
+DOMAIN,today.line.me
+
+# ========================
+# CDN / 资源加速
+# ========================
+DOMAIN-SUFFIX,profile.line-scdn.net
+DOMAIN-SUFFIX,stickershop.line-scdn.net
+DOMAIN-SUFFIX,obs.line-scdn.net
+DOMAIN-SUFFIX,vos.line-scdn.net
+DOMAIN-SUFFIX,vdn.line-scdn.net
+
+# ========================
+# 游戏生态
+# ========================
+DOMAIN-SUFFIX,linegames.com
+DOMAIN-SUFFIX,game.line.me
+DOMAIN,game-api.line.me
+
+# ========================
+# 支付 / 金融
+# ========================
+DOMAIN-SUFFIX,linepay.com
+DOMAIN-SUFFIX,linebank.jp
+DOMAIN-SUFFIX,line-sec.co.jp
+
+# ========================
+# 内容 / 媒体
+# ========================
+DOMAIN-SUFFIX,linetv.tw
+DOMAIN-SUFFIX,line.today
+DOMAIN-SUFFIX,webtoons.com
+
+# ========================
+# 企业 / Bot / 开发者
+# ========================
+DOMAIN,developers.line.biz
+
+# ========================
+# 测试 / 灰度
+# ========================
+DOMAIN-SUFFIX,line-apps-beta.com
+
+# ========================
+# IP（LINE 核心网络）
+# ========================
+IP-CIDR,103.2.28.0/22
+IP-CIDR,119.235.224.0/21
+IP-CIDR,119.235.232.0/23
+IP-CIDR,119.235.235.0/24
+IP-CIDR,119.235.236.0/23
+IP-CIDR,125.209.208.0/20
+IP-CIDR,125.209.252.103/32
+IP-CIDR,125.209.252.208/32
+IP-CIDR,125.6.146.0/24
+IP-CIDR,125.6.149.0/24
+IP-CIDR,125.6.190.0/24
+IP-CIDR,147.92.128.0/17
+IP-CIDR,203.104.103.0/24
+IP-CIDR,203.104.128.0/19
+IP-CIDR,203.174.66.64/26
+IP-CIDR,203.174.77.0/24
+IP-CIDR,43.223.0.0/16

@@ -1,6 +1,27 @@
 # =========================
-# 越南常用网站（增强版 + NCT）
+# 越南常用网站（终极整合版 + NCT）
 # =========================
+
+# =========================
+# 电商 / 零售
+# =========================
+DOMAIN-SUFFIX,shopee.vn
+DOMAIN-SUFFIX,lazada.vn
+DOMAIN-SUFFIX,tiki.vn
+DOMAIN-SUFFIX,sendo.vn
+DOMAIN-SUFFIX,vatgia.com
+DOMAIN-SUFFIX,chodientu.vn
+DOMAIN-SUFFIX,fado.vn
+DOMAIN-SUFFIX,adayroi.com
+DOMAIN-SUFFIX,thegioididong.com
+DOMAIN-SUFFIX,thegioididong.com.vn
+DOMAIN-SUFFIX,dienmayxanh.com
+DOMAIN-SUFFIX,fptshop.com.vn
+DOMAIN-SUFFIX,cellphones.com.vn
+DOMAIN-SUFFIX,bachhoaxanh.com
+DOMAIN-SUFFIX,hoanghamobile.com
+DOMAIN-SUFFIX,hacom.vn
+DOMAIN-SUFFIX,chotot.com
 
 # =========================
 # 新闻 / 门户
@@ -20,38 +41,20 @@ DOMAIN-SUFFIX,plo.vn
 DOMAIN-SUFFIX,vov.vn
 DOMAIN-SUFFIX,nld.com.vn
 DOMAIN-SUFFIX,laodong.vn
+DOMAIN-SUFFIX,vtcnews.vn
+DOMAIN-SUFFIX,tienphong.vn
 
 # =========================
-# 电商
+# 社区 / 科技 / 论坛
 # =========================
-DOMAIN-SUFFIX,shopee.vn
-DOMAIN-SUFFIX,lazada.vn
-DOMAIN-SUFFIX,tiki.vn
-DOMAIN-SUFFIX,sendo.vn
-DOMAIN-SUFFIX,vatgia.com
-DOMAIN-SUFFIX,chodientu.vn
-DOMAIN-SUFFIX,fado.vn
-DOMAIN-SUFFIX,adayroi.com
-
-# =========================
-# 数码零售 / 连锁
-# =========================
-DOMAIN-SUFFIX,thegioididong.com
-DOMAIN-SUFFIX,dienmayxanh.com
-DOMAIN-SUFFIX,fptshop.com.vn
-DOMAIN-SUFFIX,cellphones.com.vn
-DOMAIN-SUFFIX,bachhoaxanh.com
-DOMAIN-SUFFIX,hoanghamobile.com
-DOMAIN-SUFFIX,hacom.vn
-
-# =========================
-# 社区 / 科技 / 内容
-# =========================
-DOMAIN-SUFFIX,tinhte.vn
-DOMAIN-SUFFIX,genk.vn
-DOMAIN-SUFFIX,vtvgo.vn
 DOMAIN-SUFFIX,coccoc.com
+DOMAIN-SUFFIX,coccoc.vn
+DOMAIN-SUFFIX,tinhte.vn
 DOMAIN-SUFFIX,voz.vn
+DOMAIN-SUFFIX,genk.vn
+DOMAIN-SUFFIX,ddth.com
+DOMAIN-SUFFIX,techrum.vn
+DOMAIN-SUFFIX,vn-zoom.com
 DOMAIN-SUFFIX,gamek.vn
 DOMAIN-SUFFIX,afamily.vn
 
@@ -81,11 +84,25 @@ DOMAIN-SUFFIX,stream.nixcdn.com
 DOMAIN-SUFFIX,vietnamworks.com
 DOMAIN-SUFFIX,topcv.vn
 DOMAIN-SUFFIX,careerbuilder.vn
-DOMAIN-SUFFIX,chotot.com
 DOMAIN-SUFFIX,muaban.net
 
 # =========================
-# 金融 / 银行 / 支付
+# 教育 / 政府
+# =========================
+DOMAIN-SUFFIX,vietjack.com
+DOMAIN-SUFFIX,loigiaihay.com
+DOMAIN-SUFFIX,tuyensinh247.com
+DOMAIN-SUFFIX,thuvienphapluat.vn
+DOMAIN-SUFFIX,azota.vn
+DOMAIN-SUFFIX,chinhphu.vn
+DOMAIN-SUFFIX,gov.vn
+DOMAIN-SUFFIX,edu.vn
+DOMAIN-SUFFIX,moet.gov.vn
+DOMAIN-SUFFIX,danang.gov.vn
+DOMAIN-SUFFIX,hanoi.gov.vn
+
+# =========================
+# 金融 / 银行
 # =========================
 DOMAIN-SUFFIX,vcb.com.vn
 DOMAIN-SUFFIX,techcombank.com
@@ -95,23 +112,14 @@ DOMAIN-SUFFIX,vib.com.vn
 DOMAIN-SUFFIX,agribank.com.vn
 
 # =========================
-# 教育 / 政府
+# 平台 / 服务
 # =========================
-DOMAIN-SUFFIX,moet.gov.vn
-DOMAIN-SUFFIX,chinhphu.vn
-DOMAIN-SUFFIX,danang.gov.vn
-DOMAIN-SUFFIX,hanoi.gov.vn
-
-# =========================
-# 平台 / 服务 / 工具
-# =========================
-DOMAIN-SUFFIX,coccoc.vn
 DOMAIN-SUFFIX,vccorp.vn
 DOMAIN-SUFFIX,zing.vn
 DOMAIN-SUFFIX,vng.com.vn
 
 # =========================
-# CDN / 静态资源（关键）
+# CDN / 静态资源
 # =========================
 DOMAIN-SUFFIX,vnecdn.net
 DOMAIN-SUFFIX,zingcdn.vn

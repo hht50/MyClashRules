@@ -1,5 +1,5 @@
 # ========================
-# 常见站点
+# 🔞 综合成人视频站（主站）
 # ========================
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,porn.com
@@ -11,9 +11,13 @@ DOMAIN-SUFFIX,xhamster.com
 DOMAIN-SUFFIX,jabal.com
 DOMAIN-SUFFIX,javbus.com
 
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,myavlive.com
+DOMAIN-SUFFIX,xnhau.com
+
 
 # ========================
-# Pornhub
+# 🔞 Pornhub 相关生态
 # ========================
 DOMAIN-KEYWORD,pornhub
 
@@ -26,10 +30,8 @@ DOMAIN-SUFFIX,pornhub-deutsch.net
 
 
 # ========================
-# AV站（在线播放）
+# 🔞 AV在线播放 / 资源站（MissAV系）
 # ========================
-
-# missav
 DOMAIN-KEYWORD,missav
 
 DOMAIN-SUFFIX,myavlive.com
@@ -44,10 +46,11 @@ DOMAIN-SUFFIX,xhotzcam.com
 
 
 # ========================
-# CartoonAV / 动画
+# 🎬 动画 / 成人动画 / H动画
 # ========================
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-KEYWORD,hanime
+DOMAIN,hanime1.me
 
 DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,kbnmnl.com

@@ -1,0 +1,120 @@
+# =========================
+# 越南常用网站（增强版 + NCT）
+# =========================
+
+# =========================
+# 新闻 / 门户
+# =========================
+DOMAIN-SUFFIX,vnexpress.net
+DOMAIN-SUFFIX,zingnews.vn
+DOMAIN-SUFFIX,24h.com.vn
+DOMAIN-SUFFIX,dantri.com.vn
+DOMAIN-SUFFIX,tuoitre.vn
+DOMAIN-SUFFIX,vietnamnet.vn
+DOMAIN-SUFFIX,thanhnien.vn
+DOMAIN-SUFFIX,cafef.vn
+DOMAIN-SUFFIX,kenh14.vn
+DOMAIN-SUFFIX,soha.vn
+DOMAIN-SUFFIX,baomoi.com
+DOMAIN-SUFFIX,plo.vn
+DOMAIN-SUFFIX,vov.vn
+DOMAIN-SUFFIX,nld.com.vn
+DOMAIN-SUFFIX,laodong.vn
+
+# =========================
+# 电商
+# =========================
+DOMAIN-SUFFIX,shopee.vn
+DOMAIN-SUFFIX,lazada.vn
+DOMAIN-SUFFIX,tiki.vn
+DOMAIN-SUFFIX,sendo.vn
+DOMAIN-SUFFIX,vatgia.com
+DOMAIN-SUFFIX,chodientu.vn
+DOMAIN-SUFFIX,fado.vn
+DOMAIN-SUFFIX,adayroi.com
+
+# =========================
+# 数码零售 / 连锁
+# =========================
+DOMAIN-SUFFIX,thegioididong.com
+DOMAIN-SUFFIX,dienmayxanh.com
+DOMAIN-SUFFIX,fptshop.com.vn
+DOMAIN-SUFFIX,cellphones.com.vn
+DOMAIN-SUFFIX,bachhoaxanh.com
+DOMAIN-SUFFIX,hoanghamobile.com
+DOMAIN-SUFFIX,hacom.vn
+
+# =========================
+# 社区 / 科技 / 内容
+# =========================
+DOMAIN-SUFFIX,tinhte.vn
+DOMAIN-SUFFIX,genk.vn
+DOMAIN-SUFFIX,vtvgo.vn
+DOMAIN-SUFFIX,coccoc.com
+DOMAIN-SUFFIX,voz.vn
+DOMAIN-SUFFIX,gamek.vn
+DOMAIN-SUFFIX,afamily.vn
+
+# =========================
+# 视频 / 娱乐 / 音乐
+# =========================
+DOMAIN-SUFFIX,zingmp3.vn
+DOMAIN-SUFFIX,tv360.vn
+DOMAIN-SUFFIX,fptplay.vn
+
+# =========================
+# NCT（NhacCuaTui 音乐）
+# =========================
+DOMAIN-SUFFIX,nhaccuatui.com
+DOMAIN-SUFFIX,nct.vn
+DOMAIN-SUFFIX,nhac.vn
+DOMAIN-SUFFIX,nctstatic.com
+DOMAIN-SUFFIX,nixcdn.com
+DOMAIN-SUFFIX,avatar-nct.nixcdn.com
+DOMAIN-SUFFIX,audio.nixcdn.com
+DOMAIN-SUFFIX,videonct.nixcdn.com
+DOMAIN-SUFFIX,stream.nixcdn.com
+
+# =========================
+# 招聘 / 分类信息
+# =========================
+DOMAIN-SUFFIX,vietnamworks.com
+DOMAIN-SUFFIX,topcv.vn
+DOMAIN-SUFFIX,careerbuilder.vn
+DOMAIN-SUFFIX,chotot.com
+DOMAIN-SUFFIX,muaban.net
+
+# =========================
+# 金融 / 银行 / 支付
+# =========================
+DOMAIN-SUFFIX,vcb.com.vn
+DOMAIN-SUFFIX,techcombank.com
+DOMAIN-SUFFIX,mbbank.com.vn
+DOMAIN-SUFFIX,tpb.vn
+DOMAIN-SUFFIX,vib.com.vn
+DOMAIN-SUFFIX,agribank.com.vn
+
+# =========================
+# 教育 / 政府
+# =========================
+DOMAIN-SUFFIX,moet.gov.vn
+DOMAIN-SUFFIX,chinhphu.vn
+DOMAIN-SUFFIX,danang.gov.vn
+DOMAIN-SUFFIX,hanoi.gov.vn
+
+# =========================
+# 平台 / 服务 / 工具
+# =========================
+DOMAIN-SUFFIX,coccoc.vn
+DOMAIN-SUFFIX,vccorp.vn
+DOMAIN-SUFFIX,zing.vn
+DOMAIN-SUFFIX,vng.com.vn
+
+# =========================
+# CDN / 静态资源（关键）
+# =========================
+DOMAIN-SUFFIX,vnecdn.net
+DOMAIN-SUFFIX,zingcdn.vn
+DOMAIN-SUFFIX,vtv.vn
+DOMAIN-SUFFIX,vcmedia.vn
+DOMAIN-SUFFIX,vtc.vn

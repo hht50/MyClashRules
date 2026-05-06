@@ -1,7 +1,6 @@
 # ========================
 # 常见站点
 # ========================
-
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,porn.com
 DOMAIN-SUFFIX,pornhat.com
@@ -14,26 +13,14 @@ DOMAIN-SUFFIX,javbus.com
 
 
 # ========================
-# 关键词匹配（兜底）
-# ========================
-
-DOMAIN-KEYWORD,hentai
-DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,av
-
-
-# ========================
 # Pornhub
 # ========================
-
 DOMAIN-KEYWORD,pornhub
 
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
-
 DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,pronstore.com
-
 DOMAIN-SUFFIX,pornhubapparel.com
 DOMAIN-SUFFIX,pornhub-deutsch.net
 
@@ -49,25 +36,20 @@ DOMAIN-SUFFIX,myavlive.com
 DOMAIN-SUFFIX,missav.recombee.com
 DOMAIN-SUFFIX,xxxvjmp.com
 DOMAIN-SUFFIX,xxxivjmp.com
-
 DOMAIN-SUFFIX,xmavrtracktor.com
 DOMAIN-SUFFIX,hls.saawsedge.com
 DOMAIN-SUFFIX,nineyu.com
 DOMAIN-SUFFIX,surrit.com
-
 DOMAIN-SUFFIX,xhotzcam.com
 
 
 # ========================
 # CartoonAV / 动画
 # ========================
-
 DOMAIN-SUFFIX,e-hentai.org
-
 DOMAIN-KEYWORD,hanime
 
 DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,kbnmnl.com
-
 DOMAIN-SUFFIX,img.doppiocdn.com
 DOMAIN-SUFFIX,cdn.impactserving.com

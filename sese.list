@@ -1,76 +1,262 @@
 # ========================
-# 常见站点
-# ========================
-
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,porn.com
-DOMAIN-SUFFIX,pornhat.com
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,xnxx.com
-DOMAIN-SUFFIX,youporn.com
-DOMAIN-SUFFIX,xhamster.com
-DOMAIN-SUFFIX,jabal.com
-DOMAIN-SUFFIX,javbus.com
-
-
-# ========================
 # 关键词匹配（兜底）
 # ========================
 
 DOMAIN-KEYWORD,hentai
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,av
-
-
-# ========================
-# Pornhub
-# ========================
-
+DOMAIN-KEYWORD,missav
+DOMAIN-KEYWORD,hanime
 DOMAIN-KEYWORD,pornhub
 
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
 
-DOMAIN-SUFFIX,pornhubpremium.com
-DOMAIN-SUFFIX,pronstore.com
+# ========================
+# 常见综合成人站
+# ========================
 
-DOMAIN-SUFFIX,pornhubapparel.com
-DOMAIN-SUFFIX,pornhub-deutsch.net
+DOMAIN-SUFFIX,xvideos.com        # 全球最大免费色情视频站
+DOMAIN-SUFFIX,xnxx.com           # 大型免费视频站，xvideos系
+DOMAIN-SUFFIX,xhamster.com       # 综合视频站，有直播功能
+DOMAIN-SUFFIX,pornhub.com        # 全球知名综合成人平台
+DOMAIN-SUFFIX,porn.com           # 综合成人视频
+DOMAIN-SUFFIX,pornhat.com        # 综合成人视频
+DOMAIN-SUFFIX,youporn.com        # 综合免费视频站
+DOMAIN-SUFFIX,redtube.com        # 综合免费视频站
+DOMAIN-SUFFIX,tube8.com          # 综合免费视频站
+DOMAIN-SUFFIX,beeg.com           # 高清综合视频站
+DOMAIN-SUFFIX,drtuber.com        # 综合视频站
+DOMAIN-SUFFIX,tnaflix.com        # 综合视频站
+DOMAIN-SUFFIX,vporn.com          # 综合视频站
+DOMAIN-SUFFIX,pornoxo.com        # 综合视频站
+DOMAIN-SUFFIX,porntube.com       # 综合视频站
+DOMAIN-SUFFIX,pornmd.com         # 综合视频站
+DOMAIN-SUFFIX,pornbest.org       # 综合视频站
+DOMAIN-SUFFIX,freeporn.com       # 免费综合视频
+DOMAIN-SUFFIX,porn.com           # 综合成人视频
+DOMAIN-SUFFIX,lxxx.com           # 综合成人视频
+DOMAIN-SUFFIX,largeporntube.com  # 综合视频站
+DOMAIN-SUFFIX,perfectgirls.com   # 综合视频站
+DOMAIN-SUFFIX,nuvid.com          # 综合视频站
+DOMAIN-SUFFIX,nudevista.com      # 图片/视频搜索站
+DOMAIN-SUFFIX,video-one.com      # 综合视频站
+DOMAIN-SUFFIX,bravotube.com      # 综合视频站
+DOMAIN-SUFFIX,yourlust.com       # 综合视频站
+DOMAIN-SUFFIX,fucked-tube.com    # 综合视频站
+DOMAIN-SUFFIX,spankwire.com      # 综合视频站
+DOMAIN-SUFFIX,alphaporno.com     # 综合视频站
+DOMAIN-SUFFIX,anysex.com         # 综合视频站
+DOMAIN-SUFFIX,sambaporno.com     # 综合视频站（葡语）
+DOMAIN-SUFFIX,tubegalore.com     # 综合视频站
+DOMAIN-SUFFIX,videosexarchive.com # 综合视频归档
+DOMAIN-SUFFIX,extremetube.com    # 综合视频站
+DOMAIN-SUFFIX,hellporn.com       # 综合视频站
+DOMAIN-SUFFIX,gonzoxxxmovies.com # 综合视频站
+DOMAIN-SUFFIX,slutload.com       # 综合视频站
+DOMAIN-SUFFIX,h2porn.com         # 综合视频站
+DOMAIN-SUFFIX,cliphunter.com     # 综合视频站
+DOMAIN-SUFFIX,ah-me.com          # 综合视频站
+DOMAIN-SUFFIX,fapdu.com          # 综合视频站
+DOMAIN-SUFFIX,empflix.com        # 综合视频站
+DOMAIN-SUFFIX,bigtube.com        # 综合视频站
+DOMAIN-SUFFIX,madbitties.com     # 综合视频站
+DOMAIN-SUFFIX,eskimotube.com     # 综合视频站
+DOMAIN-SUFFIX,hustlertube.com    # 综合视频站
+DOMAIN-SUFFIX,bustnow.com        # 综合视频站
+DOMAIN-SUFFIX,tubethumbs.com     # 视频缩略图站
+DOMAIN-SUFFIX,yobt.com           # 综合视频站
+DOMAIN-SUFFIX,fuq.com            # 综合视频站（支持中文）
+DOMAIN-SUFFIX,redtubelive.com    # RedTube直播版
+DOMAIN-SUFFIX,keezmovies.com     # 综合视频站
+DOMAIN-SUFFIX,xtube.com          # 综合视频站（已关闭）
+DOMAIN-SUFFIX,contenko.com       # 综合视频站
+DOMAIN-SUFFIX,sunporno.com       # 综合视频站
+DOMAIN-SUFFIX,pornerbros.com     # 综合视频站
+DOMAIN-SUFFIX,4tube.com          # 综合视频站
+DOMAIN-SUFFIX,petardas.com       # 综合视频站（西班牙语）
+DOMAIN-SUFFIX,vporn.com          # 综合视频站
+DOMAIN-SUFFIX,freeones.com       # 女优目录/视频站
+DOMAIN-SUFFIX,literotica.com     # 成人文学/情色小说站
+DOMAIN-SUFFIX,adult-empire.com   # 综合成人内容商店
+DOMAIN-SUFFIX,brazzers.com       # 知名付费成人制作商
+DOMAIN-SUFFIX,theporndude.com    # 成人网站导航
+DOMAIN-SUFFIX,pornsharia.com     # 综合视频站
+DOMAIN-SUFFIX,asiantolick.com    # 亚洲成人视频
+DOMAIN-SUFFIX,69story.com        # 成人故事/视频站
+DOMAIN-SUFFIX,mrcong.com         # 越南成人视频站
+DOMAIN-SUFFIX,vjav.com           # 日本AV在线播放
+DOMAIN-SUFFIX,javcup.com         # 日本AV在线播放
+DOMAIN-SUFFIX,faapy.com          # 成人视频站
+DOMAIN-SUFFIX,hitxhot.com        # 成人视频站
+DOMAIN-SUFFIX,xx-map.com         # 成人导航站
+DOMAIN-SUFFIX,foxai.xyz          # 成人AI/视频站
 
 
 # ========================
-# AV站（在线播放）
+# Pornhub 相关域名
 # ========================
 
-# missav
-DOMAIN-KEYWORD,missav
-
-DOMAIN-SUFFIX,myavlive.com
-DOMAIN-SUFFIX,missav.recombee.com
-DOMAIN-SUFFIX,xxxvjmp.com
-DOMAIN-SUFFIX,xxxivjmp.com
-
-DOMAIN-SUFFIX,xmavrtracktor.com
-DOMAIN-SUFFIX,hls.saawsedge.com
-DOMAIN-SUFFIX,nineyu.com
-DOMAIN-SUFFIX,surrit.com
-
-DOMAIN-SUFFIX,xhotzcam.com
+DOMAIN-SUFFIX,phncdn.com         # Pornhub CDN（视频分发）
+DOMAIN-SUFFIX,phprcdn.com        # Pornhub CDN（静态资源）
+DOMAIN-SUFFIX,pornhubpremium.com # Pornhub 付费会员站
+DOMAIN-SUFFIX,pronstore.com      # Pornhub 周边商店
+DOMAIN-SUFFIX,pornhubapparel.com # Pornhub 服装商店
+DOMAIN-SUFFIX,pornhub-deutsch.net # Pornhub 德语站
+DOMAIN-SUFFIX,pornhublive.com    # Pornhub 直播站
+DOMAIN-SUFFIX,xhamstercams.com   # xHamster 直播/摄像头站
 
 
 # ========================
-# CartoonAV / 动画
+# AV站 / 日本AV（在线播放）
 # ========================
 
-DOMAIN-SUFFIX,e-hentai.org
+# MissAV 相关
+DOMAIN-SUFFIX,myavlive.com       # MissAV 备用域名
+DOMAIN-SUFFIX,missav.recombee.com # MissAV 推荐引擎
+DOMAIN-SUFFIX,xxxvjmp.com        # MissAV 视频跳转
+DOMAIN-SUFFIX,xxxivjmp.com       # MissAV 视频跳转备用
+DOMAIN-SUFFIX,xmavrtracktor.com  # MissAV 追踪域名
+DOMAIN-SUFFIX,hls.saawsedge.com  # MissAV HLS 视频流 CDN
+DOMAIN-SUFFIX,nineyu.com         # MissAV 相关
+DOMAIN-SUFFIX,surrit.com         # MissAV 相关
+DOMAIN-SUFFIX,xhotzcam.com       # MissAV 相关摄像头
 
-DOMAIN-KEYWORD,hanime
+# JAV 数据库 / 检索
+DOMAIN-SUFFIX,javbus.com         # JAV 番号数据库（含磁链）
+DOMAIN-SUFFIX,jabal.com          # JAV 相关站
+DOMAIN-SUFFIX,javlibrary.com     # JAV 番号评分数据库
+DOMAIN-SUFFIX,javhoo.com         # JAV 搜索站
+DOMAIN-SUFFIX,jav.gallery        # JAV 图库/视频站
+DOMAIN-SUFFIX,avmoo.com          # JAV 番号数据库
+DOMAIN-SUFFIX,avsox.com          # JAV 番号数据库（无码）
+DOMAIN-SUFFIX,vjav.com           # JAV 在线播放
+DOMAIN-SUFFIX,javcup.com         # JAV 在线播放
 
-DOMAIN-SUFFIX,hembed.com
-DOMAIN-SUFFIX,kbnmnl.com
+# 中文/亚洲 AV 站
+DOMAIN-SUFFIX,91porn.com         # 中文用户自制/AV分享站
+DOMAIN-SUFFIX,t66y.com           # 中文AV论坛
+DOMAIN-SUFFIX,sexinsex.net       # 中文成人论坛
+DOMAIN-SUFFIX,avso.vip           # AV在线播放站
+DOMAIN-SUFFIX,922tp.com          # 中文AV站
+DOMAIN-SUFFIX,moefuns.vip        # 中文/亚洲AV站
+DOMAIN-SUFFIX,8kcosplay.com      # 日韩Cosplay成人站
+DOMAIN-SUFFIX,souka.xyz          # 中文AV站
+DOMAIN-SUFFIX,xg08.vip           # 中文AV站
+DOMAIN-SUFFIX,tk5.app            # 中文AV/直播站
+DOMAIN-SUFFIX,buliangvip.com     # 中文AV站
+DOMAIN-SUFFIX,emoeti.com         # 中文成人站
+DOMAIN-SUFFIX,loibus505.top      # 中文AV站（全付费）
+DOMAIN-SUFFIX,lu99.xyz           # 中文AV站
+DOMAIN-SUFFIX,dh15.lol           # 中文AV站
+DOMAIN-SUFFIX,hxzdh1.top         # 中文AV站
+DOMAIN-SUFFIX,fuliji.space        # 成人内容（含黄油下载）
+DOMAIN-SUFFIX,54647fancy.com     # 黄油/成人游戏下载站
+DOMAIN-SUFFIX,redgifs.com        # 成人GIF/短视频站（Reddit系）
+DOMAIN-SUFFIX,gm45.xyz           # 中文AV站
+DOMAIN-SUFFIX,mtdh67.xyz         # 中文AV站
+DOMAIN-SUFFIX,langwo33.buzz      # 成人视频站
+DOMAIN-SUFFIX,nenmfl33.buzz      # 成人视频站
+DOMAIN-SUFFIX,lysx1.buzz         # 成人视频站
+DOMAIN-SUFFIX,wwwno.buzz         # 成人视频站
+DOMAIN-SUFFIX,mncks.buzz         # 成人视频站
+DOMAIN-SUFFIX,gc0076.buzz        # 成人视频站
+DOMAIN-SUFFIX,shdd8.buzz         # 成人视频站
+DOMAIN-SUFFIX,xxyaom33.buzz      # 成人视频站
+DOMAIN-SUFFIX,rmm99999.buzz      # 成人视频站
+DOMAIN-SUFFIX,rsjy99999.buzz     # 成人视频站
+DOMAIN-SUFFIX,roupu22.buzz       # 成人视频站
+DOMAIN-SUFFIX,meirenge5.buzz     # 成人视频站
+DOMAIN-SUFFIX,qinglongav1.top    # AV站（青龙系）
+DOMAIN-SUFFIX,1000novel.com      # 成人小说/AV站
 
-DOMAIN-SUFFIX,img.doppiocdn.com
-DOMAIN-SUFFIX,cdn.impactserving.com
-#-------------------------
-DOMAIN-SUFFIX,iacg.love
 
+# ========================
+# 动画 / Hentai / 二次元
+# ========================
+
+DOMAIN-SUFFIX,e-hentai.org       # 最大同人/本子图库
+DOMAIN-SUFFIX,exhentai.org       # E-Hentai 付费/高级版
+DOMAIN-SUFFIX,fakku.net          # 英文H漫翻译/销售平台
+DOMAIN-SUFFIX,anitube.se         # 成人动画站
+DOMAIN-SUFFIX,hembed.com         # Hanime 视频嵌入CDN
+DOMAIN-SUFFIX,kbnmnl.com         # Hanime 相关CDN
+DOMAIN-SUFFIX,img.doppiocdn.com  # Hanime 图片CDN
+DOMAIN-SUFFIX,cdn.impactserving.com # Hanime 视频CDN
+DOMAIN-SUFFIX,iacg.love          # 成人二次元/H漫站
+
+
+# ========================
+# 直播 / 摄像头站
+# ========================
+
+DOMAIN-SUFFIX,chaturbate.com     # 最大用户直播平台
+DOMAIN-SUFFIX,livejasmin.com     # 付费成人直播平台
+DOMAIN-SUFFIX,cam4.com           # 成人直播平台
+DOMAIN-SUFFIX,myfreecams.com     # 免费成人直播
+DOMAIN-SUFFIX,youjizz.com        # 直播/视频混合站
+DOMAIN-SUFFIX,youjizzlive.com    # YouJizz 直播版
+DOMAIN-SUFFIX,exposedwebcams.com # 摄像头/直播站
+DOMAIN-SUFFIX,eroprofile.com     # 用户上传/社区站
+
+
+# ========================
+# 图片站 / 论坛 / 社区
+# ========================
+
+DOMAIN-SUFFIX,imagefap.com       # 成人图片社区
+DOMAIN-SUFFIX,motherless.com     # 用户上传图片/视频社区
+DOMAIN-SUFFIX,4chan.org          # 匿名图片论坛（含成人板块）
+DOMAIN-SUFFIX,2ch.net            # 日本匿名论坛
+DOMAIN-SUFFIX,dojki.com          # 成人图片/视频站
+DOMAIN-SUFFIX,woozworld.com      # 社交/虚拟世界（含成人内容）
+DOMAIN-SUFFIX,liveinternet.ru    # 俄罗斯博客/社区平台
+
+
+# ========================
+# 交友 / 约炮 / 同志
+# ========================
+
+DOMAIN-SUFFIX,adultfriendfinder.com # 成人交友平台
+DOMAIN-SUFFIX,adam4adam.com      # 男同交友平台
+DOMAIN-SUFFIX,manhunt.net        # 男同交友/约会
+DOMAIN-SUFFIX,gayromeo.com       # 男同交友平台
+DOMAIN-SUFFIX,ashemaletube.com   # TS/跨性别视频站
+DOMAIN-SUFFIX,xdating.com        # 成人交友站
+
+
+# ========================
+# DMM / 日本成人商店
+# ========================
+
+DOMAIN-SUFFIX,dmm.co.jp          # 日本最大成人内容平台（含游戏/视频）
+DOMAIN-SUFFIX,dmm.com            # DMM 国际版
+DOMAIN-SUFFIX,dlsite.com         # 日本同人/成人游戏销售平台
+
+
+# ========================
+# 广告网络 / 追踪
+# ========================
+
+DOMAIN-SUFFIX,adnxs.com          # AppNexus 广告平台（成人站常用）
+DOMAIN-SUFFIX,juicyads.com       # 成人广告网络
+DOMAIN-SUFFIX,claro-search.com   # 浏览器劫持/广告搜索引擎
+
+
+# ========================
+# 其他 / 杂类
+# ========================
+
+DOMAIN-SUFFIX,snapdo.com         # 浏览器劫持软件站
+DOMAIN-SUFFIX,webalta.ru         # 俄罗斯搜索引擎（含成人内容）
+DOMAIN-SUFFIX,abril.com.br       # 巴西媒体集团（部分含成人内容）
+DOMAIN-SUFFIX,batepapo.uol.com.br # 巴西成人聊天室
+DOMAIN-SUFFIX,rarbg.com          # BT种子站（含成人资源）
+DOMAIN-SUFFIX,kickass.to         # BT种子站
+DOMAIN-SUFFIX,streamcloud.eu     # 视频外链/文件分享站
+DOMAIN-SUFFIX,say-move.org       # 视频分享站
+DOMAIN-SUFFIX,ryushare.com       # 文件分享站
+DOMAIN-SUFFIX,ultrasurf.us       # 翻墙代理工具站
+DOMAIN-SUFFIX,roulettebotplus.com # 聊天轮盘机器人
+DOMAIN-SUFFIX,cerdas.com         # 综合成人站
+DOMAIN-SUFFIX,dafiti.com.br      # 巴西电商（误入列表）
+DOMAIN-SUFFIX,super.cz           # 捷克综合门户
+DOMAIN-SUFFIX,asg.to             # 成人/资源站

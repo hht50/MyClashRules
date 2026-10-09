@@ -1,0 +1,15 @@
+# ==================================================
+# TMDB / The Movie Database
+# ==================================================
+
+# 官网
+DOMAIN-SUFFIX,themoviedb.org
+
+# API 接口
+DOMAIN,api.themoviedb.org
+
+# 海报、背景图、Logo
+DOMAIN,image.tmdb.org
+
+# 图片及元数据相关域名
+DOMAIN-SUFFIX,tmdb.org

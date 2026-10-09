@@ -1,0 +1,13 @@
+# ==================================================
+# Trakt 影视服务
+# ==================================================
+
+# Trakt 主站及子域名
+DOMAIN-SUFFIX,trakt.tv
+
+# Trakt API
+DOMAIN,api.trakt.tv
+DOMAIN,api-staging.trakt.tv
+
+# Trakt 图片资源
+DOMAIN-SUFFIX,walter-r2.trakt.tv

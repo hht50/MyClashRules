@@ -91,3 +91,6 @@ USER-AGENT,TikTok*
 
 # === PROCESS-NAME ===
 PROCESS-NAME,com.zhiliaoapp.musically
+
+DOMAIN-SUFFIX,config.mtp.sag.us-ashburn-1.oci.oraclecloud.com
+IP-CIDR,71.18.135.242/32

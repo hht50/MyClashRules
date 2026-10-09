@@ -260,3 +260,10 @@ DOMAIN-SUFFIX,cerdas.com         # 综合成人站
 DOMAIN-SUFFIX,dafiti.com.br      # 巴西电商（误入列表）
 DOMAIN-SUFFIX,super.cz           # 捷克综合门户
 DOMAIN-SUFFIX,asg.to             # 成人/资源站
+
+#新增
+DOMAIN-SUFFIX,sc-apps.com
+DOMAIN-SUFFIX,strpst.com
+DOMAIN-SUFFIX,lovense-api.com
+DOMAIN-SUFFIX,chapturist.com
+DOMAIN-SUFFIX,doppiocdn.org

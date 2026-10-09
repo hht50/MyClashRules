@@ -1,0 +1,170 @@
+DOMAIN,www.vesti.ru
+DOMAIN-SUFFIX,nuance.com
+DOMAIN,myaccount.vodafone.co.uk
+DOMAIN,www.furclaw.top
+
+# ==================================================
+# 01. 英国政府与公共服务
+# ==================================================
+DOMAIN-SUFFIX,gov.uk
+DOMAIN-SUFFIX,parliament.uk
+DOMAIN-SUFFIX,nhs.uk
+DOMAIN-SUFFIX,gov.scot
+DOMAIN-SUFFIX,gov.wales
+DOMAIN-SUFFIX,ni.gov.uk
+DOMAIN-SUFFIX,police.uk
+DOMAIN-SUFFIX,dvla.gov.uk
+DOMAIN-SUFFIX,ons.gov.uk
+DOMAIN-SUFFIX,metoffice.gov.uk
+DOMAIN-SUFFIX,legislation.gov.uk
+DOMAIN-SUFFIX,companieshouse.gov.uk
+DOMAIN-SUFFIX,hmrc.gov.uk
+DOMAIN-SUFFIX,royal.uk
+
+# ==================================================
+# 02. 英国新闻与电视媒体
+# ==================================================
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,channel4.com
+DOMAIN-SUFFIX,channel5.com
+DOMAIN-SUFFIX,sky.com
+DOMAIN-SUFFIX,theguardian.com
+DOMAIN-SUFFIX,telegraph.co.uk
+DOMAIN-SUFFIX,independent.co.uk
+DOMAIN-SUFFIX,dailymail.co.uk
+DOMAIN-SUFFIX,express.co.uk
+DOMAIN-SUFFIX,thesun.co.uk
+DOMAIN-SUFFIX,standard.co.uk
+DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,economist.com
+DOMAIN-SUFFIX,gbnews.com
+DOMAIN-SUFFIX,pressgazette.co.uk
+
+# ==================================================
+# 03. 英国银行与金融
+# ==================================================
+DOMAIN-SUFFIX,barclays.co.uk
+DOMAIN-SUFFIX,hsbc.co.uk
+DOMAIN-SUFFIX,lloydsbank.com
+DOMAIN-SUFFIX,natwest.com
+DOMAIN-SUFFIX,santander.co.uk
+DOMAIN-SUFFIX,nationwide.co.uk
+DOMAIN-SUFFIX,halifax.co.uk
+DOMAIN-SUFFIX,monzo.com
+DOMAIN-SUFFIX,starlingbank.com
+DOMAIN-SUFFIX,tsb.co.uk
+DOMAIN-SUFFIX,virginmoney.com
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,standardlife.co.uk
+DOMAIN-SUFFIX,hl.co.uk
+DOMAIN-SUFFIX,ajbell.co.uk
+DOMAIN-SUFFIX,moneysavingexpert.com
+
+# ==================================================
+# 04. 英国购物与零售
+# ==================================================
+DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,ebay.co.uk
+DOMAIN-SUFFIX,argos.co.uk
+DOMAIN-SUFFIX,tesco.com
+DOMAIN-SUFFIX,sainsburys.co.uk
+DOMAIN-SUFFIX,asda.com
+DOMAIN-SUFFIX,morrisons.com
+DOMAIN-SUFFIX,waitrose.com
+DOMAIN-SUFFIX,boots.com
+DOMAIN-SUFFIX,superdrug.com
+DOMAIN-SUFFIX,johnlewis.com
+DOMAIN-SUFFIX,marksandspencer.com
+DOMAIN-SUFFIX,next.co.uk
+DOMAIN-SUFFIX,asos.com
+DOMAIN-SUFFIX,very.co.uk
+DOMAIN-SUFFIX,ao.com
+DOMAIN-SUFFIX,currys.co.uk
+DOMAIN-SUFFIX,ocado.com
+DOMAIN-SUFFIX,primark.com
+DOMAIN-SUFFIX,screwfix.com
+DOMAIN-SUFFIX,toolstation.com
+
+# ==================================================
+# 05. 英国电信与互联网服务
+# ==================================================
+DOMAIN-SUFFIX,bt.com
+DOMAIN-SUFFIX,ee.co.uk
+DOMAIN-SUFFIX,o2.co.uk
+DOMAIN-SUFFIX,vodafone.co.uk
+DOMAIN-SUFFIX,three.co.uk
+DOMAIN-SUFFIX,virginmedia.com
+DOMAIN-SUFFIX,talktalk.co.uk
+DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,plus.net
+DOMAIN-SUFFIX,zen.co.uk
+
+# ==================================================
+# 06. 英国大学与教育
+# ==================================================
+DOMAIN-SUFFIX,ox.ac.uk
+DOMAIN-SUFFIX,cam.ac.uk
+DOMAIN-SUFFIX,imperial.ac.uk
+DOMAIN-SUFFIX,ucl.ac.uk
+DOMAIN-SUFFIX,ed.ac.uk
+DOMAIN-SUFFIX,manchester.ac.uk
+DOMAIN-SUFFIX,kcl.ac.uk
+DOMAIN-SUFFIX,lse.ac.uk
+DOMAIN-SUFFIX,bristol.ac.uk
+DOMAIN-SUFFIX,warwick.ac.uk
+DOMAIN-SUFFIX,open.ac.uk
+DOMAIN-SUFFIX,ac.uk
+DOMAIN-SUFFIX,jisc.ac.uk
+
+# ==================================================
+# 07. 英国房产与租房
+# ==================================================
+DOMAIN-SUFFIX,rightmove.co.uk
+DOMAIN-SUFFIX,zoopla.co.uk
+DOMAIN-SUFFIX,onthemarket.com
+DOMAIN-SUFFIX,openrent.co.uk
+DOMAIN-SUFFIX,foxtons.co.uk
+DOMAIN-SUFFIX,savills.co.uk
+DOMAIN-SUFFIX,knightfrank.com
+DOMAIN-SUFFIX,prime-location.co.uk
+DOMAIN-SUFFIX,spareroom.co.uk
+
+# ==================================================
+# 08. 英国交通与旅游
+# ==================================================
+DOMAIN-SUFFIX,nationalrail.co.uk
+DOMAIN-SUFFIX,thetrainline.com
+DOMAIN-SUFFIX,tfl.gov.uk
+DOMAIN-SUFFIX,nationalexpress.com
+DOMAIN-SUFFIX,megabus.com
+DOMAIN-SUFFIX,networkrail.co.uk
+DOMAIN-SUFFIX,heathrow.com
+DOMAIN-SUFFIX,gatwickairport.com
+DOMAIN-SUFFIX,manchesterairport.co.uk
+DOMAIN-SUFFIX,skyscanner.net
+DOMAIN-SUFFIX,visitbritain.com
+DOMAIN-SUFFIX,visitlondon.com
+DOMAIN-SUFFIX,tripadvisor.co.uk
+DOMAIN-SUFFIX,jet2.com
+DOMAIN-SUFFIX,easyjet.com
+DOMAIN-SUFFIX,britishairways.com
+
+# ==================================================
+# 09. 英国体育与文化
+# ==================================================
+DOMAIN-SUFFIX,premierleague.com
+DOMAIN-SUFFIX,thefa.com
+DOMAIN-SUFFIX,efl.com
+DOMAIN-SUFFIX,arsenal.com
+DOMAIN-SUFFIX,chelseafc.com
+DOMAIN-SUFFIX,liverpoolfc.com
+DOMAIN-SUFFIX,manutd.com
+DOMAIN-SUFFIX,mancity.com
+DOMAIN-SUFFIX,tottenhamhotspur.com
+DOMAIN-SUFFIX,wimbledon.com
+DOMAIN-SUFFIX,nationalgallery.org.uk
+DOMAIN-SUFFIX,britishmuseum.org
+DOMAIN-SUFFIX,tate.org.uk
+DOMAIN-SUFFIX,rct.uk

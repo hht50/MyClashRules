@@ -1,0 +1,280 @@
+```text
+# ==============================
+# BOSS直聘及关联平台
+# ==============================
+DOMAIN-SUFFIX,zhipin.com
+DOMAIN-SUFFIX,bosszhipin.com
+DOMAIN-SUFFIX,kanzhun.com
+DOMAIN-SUFFIX,dianzhangzhipin.com
+DOMAIN-SUFFIX,spidernote.com
+
+# ==============================
+# 智联招聘
+# ==============================
+DOMAIN-SUFFIX,zhaopin.com
+DOMAIN-SUFFIX,zhaopin.cn
+
+# ==============================
+# 前程无忧 / 51Job / 51米多多
+# ==============================
+DOMAIN-SUFFIX,51job.com
+DOMAIN-SUFFIX,51jobcdn.com
+DOMAIN-SUFFIX,51mi.com
+
+# ==============================
+# 猎聘及关联产品
+# ==============================
+DOMAIN-SUFFIX,liepin.com
+DOMAIN-SUFFIX,liepin.cn
+DOMAIN-SUFFIX,lietou-static.com
+DOMAIN,api-c.liepin.com
+DOMAIN,api-lpt.liepin.com
+DOMAIN,api-im.liepin.com
+DOMAIN,security.liepin.com
+DOMAIN,log.liepin.com
+DOMAIN-SUFFIX,lebanban.com
+DOMAIN-SUFFIX,duomian.com
+
+# ==============================
+# 拉勾招聘
+# ==============================
+DOMAIN-SUFFIX,lagou.com
+
+# ==============================
+# 中华英才网
+# ==============================
+DOMAIN-SUFFIX,chinahr.com
+
+# ==============================
+# 58同城 / 赶集招聘
+# ==============================
+DOMAIN-SUFFIX,58.com
+DOMAIN-SUFFIX,ganji.com
+
+# ==============================
+# 脉脉
+# ==============================
+DOMAIN-SUFFIX,maimai.cn
+
+# ==============================
+# 鱼泡直聘
+# ==============================
+DOMAIN-SUFFIX,yupao.com
+
+# ==============================
+# 应届生求职网
+# ==============================
+DOMAIN-SUFFIX,yingjiesheng.com
+
+# ==============================
+# 实习僧
+# ==============================
+DOMAIN-SUFFIX,shixiseng.com
+
+# ==============================
+# 牛客网
+# ==============================
+DOMAIN-SUFFIX,nowcoder.com
+
+# ==============================
+# 国聘
+# ==============================
+DOMAIN-SUFFIX,iguopin.com
+
+# ==============================
+# 中智招聘
+# ==============================
+DOMAIN-SUFFIX,ciiczhaopin.com
+
+# ==============================
+# 丁香人才
+# ==============================
+DOMAIN-SUFFIX,jobmd.cn
+
+# ==============================
+# 一览英才网
+# ==============================
+DOMAIN-SUFFIX,yilan.com
+
+# ==============================
+# 南方人才网
+# ==============================
+DOMAIN-SUFFIX,job168.com
+
+# ==============================
+# 汇博招聘
+# ==============================
+DOMAIN-SUFFIX,huibo.com
+
+# ==============================
+# 兼职猫
+# ==============================
+DOMAIN-SUFFIX,jianzhimao.com
+
+# ==============================
+# 斗米
+# ==============================
+DOMAIN-SUFFIX,doumi.com
+
+# ==============================
+# 国家级公共就业及人社平台
+# ==============================
+DOMAIN,job.mohrss.gov.cn
+DOMAIN,chrm.mohrss.gov.cn
+DOMAIN-SUFFIX,mohrss.gov.cn
+DOMAIN-SUFFIX,jobonline.cn
+DOMAIN-SUFFIX,ncss.cn
+DOMAIN-SUFFIX,newjobs.com.cn
+DOMAIN-SUFFIX,12333.gov.cn
+DOMAIN-SUFFIX,zhaopin.gslhr.org.cn
+
+# ==============================
+# 北京
+# ==============================
+DOMAIN,fuwu.rsj.beijing.gov.cn
+
+# ==============================
+# 天津
+# ==============================
+DOMAIN-SUFFIX,cnthr.com
+DOMAIN-SUFFIX,tjkyhr.com
+
+# ==============================
+# 河北
+# ==============================
+DOMAIN-SUFFIX,hbrc.com.cn
+DOMAIN,rst.hebei.gov.cn
+
+# ==============================
+# 山西
+# ==============================
+DOMAIN-SUFFIX,sjrc.com.cn
+
+# ==============================
+# 内蒙古
+# ==============================
+DOMAIN-SUFFIX,nmrc.com.cn
+DOMAIN-SUFFIX,nmgrc.com
+
+# ==============================
+# 吉林
+# ==============================
+DOMAIN-SUFFIX,hr.com.cn
+DOMAIN,hrss.jl.gov.cn
+
+# ==============================
+# 上海
+# ==============================
+DOMAIN,rsj.sh.gov.cn
+DOMAIN-SUFFIX,sotsw.cn
+
+# ==============================
+# 江苏
+# ==============================
+DOMAIN-SUFFIX,js365job.com
+
+# ==============================
+# 浙江
+# ==============================
+DOMAIN-SUFFIX,zjrc.com
+DOMAIN-SUFFIX,zjhr.com
+
+# ==============================
+# 安徽
+# ==============================
+DOMAIN-SUFFIX,ahggzp.gov.cn
+
+# ==============================
+# 福建
+# ==============================
+DOMAIN-SUFFIX,hxrc.com
+
+# ==============================
+# 江西
+# ==============================
+DOMAIN-SUFFIX,jxrcw.com
+DOMAIN-SUFFIX,jxsrl.com
+
+# ==============================
+# 山东
+# ==============================
+DOMAIN-SUFFIX,sdggzp.cn
+
+# ==============================
+# 河南
+# ==============================
+DOMAIN-SUFFIX,zghnrc.gov.cn
+DOMAIN-SUFFIX,zyrc.com.cn
+DOMAIN-SUFFIX,jiuye.gov.cn
+
+# ==============================
+# 湖北
+# ==============================
+DOMAIN-SUFFIX,hbggzp.cn
+
+# ==============================
+# 湖南
+# ==============================
+DOMAIN,rst.hunan.gov.cn
+
+# ==============================
+# 广东
+# ==============================
+DOMAIN,hrss.gd.gov.cn
+
+# ==============================
+# 广西
+# ==============================
+DOMAIN-SUFFIX,gx12333.net
+
+# ==============================
+# 重庆
+# ==============================
+DOMAIN-SUFFIX,cqrc.net
+DOMAIN-SUFFIX,cqtalent.com
+```
+
+# 58同城主站及全部子域名
+DOMAIN-SUFFIX,58.com
+
+# 赶集招聘
+DOMAIN-SUFFIX,ganji.com
+
+# 中华英才网（58集团关联平台）
+DOMAIN-SUFFIX,chinahr.com
+
+# 安居客（58集团旗下）
+DOMAIN-SUFFIX,anjuke.com
+
+# 58到家
+DOMAIN-SUFFIX,58daojia.com
+
+# 转转
+DOMAIN-SUFFIX,zhuanzhuan.com
+
+# 招聘商家端及开放平台
+DOMAIN,open.58.com
+DOMAIN,down.58.com
+
+
+# 官方就业及国企招聘补漏
+DOMAIN-SUFFIX,jobonline.cn
+DOMAIN-SUFFIX,newjobs.com.cn
+DOMAIN-SUFFIX,12333.gov.cn
+DOMAIN-SUFFIX,iguopin.com
+DOMAIN-SUFFIX,ciiczhaopin.com
+DOMAIN-SUFFIX,ciicscjob.com
+DOMAIN-SUFFIX,cyol.com
+DOMAIN-SUFFIX,jobs.ncss.cn
+DOMAIN,chrm.mohrss.gov.cn
+
+# 校招补漏
+DOMAIN-SUFFIX,haitou.cc
+
+# 制造业、区域招聘补漏
+DOMAIN-SUFFIX,job5156.com
+DOMAIN-SUFFIX,jobcn.com
+
+# 蓝领招聘补漏
+DOMAIN-SUFFIX,yupao.com
+DOMAIN-SUFFIX,doumi.com

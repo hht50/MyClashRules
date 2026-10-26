@@ -325,3 +325,8 @@ DOMAIN,api.maiyoux.com                 # 视频API
 DOMAIN-SUFFIX,missav.ai                # 成人视频平台
 # 预告片/元数据
 DOMAIN-SUFFIX,fourhoi.com              # 预告片及元数据
+
+# 成人直播及相关服务
+DOMAIN-SUFFIX,5721004.xyz          # 相关网站服务
+DOMAIN-SUFFIX,515355.xyz           # 相关网站服务
+DOMAIN-SUFFIX,pandalive.co.kr      # PandaLive韩国直播平台

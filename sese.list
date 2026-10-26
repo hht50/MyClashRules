@@ -267,3 +267,61 @@ DOMAIN-SUFFIX,strpst.com
 DOMAIN-SUFFIX,lovense-api.com
 DOMAIN-SUFFIX,chapturist.com
 DOMAIN-SUFFIX,doppiocdn.org
+
+# 影视资源站API
+DOMAIN-SUFFIX,ukuapi88.com          # 影视资源站API
+DOMAIN-SUFFIX,bwzyz.com             # 影视资源站API
+DOMAIN-SUFFIX,apilj.com              # 影视资源站API
+DOMAIN-SUFFIX,p2100.net              # 影视资源站API
+DOMAIN-SUFFIX,shayuapi.com            # 影视资源站API
+DOMAIN-SUFFIX,lbapi9.com              # 影视资源站API
+DOMAIN-SUFFIX,wujinapi.com            # 影视资源站API
+DOMAIN-SUFFIX,tyyszy.com              # 影视资源站API
+DOMAIN-SUFFIX,ikunzyapi.com           # 影视资源站API
+DOMAIN-SUFFIX,wujinapi.cc             # 影视资源站API
+DOMAIN-SUFFIX,subocaiji.com           # 影视资源站API
+DOMAIN-SUFFIX,jyzyapi.com             # 影视资源站API
+DOMAIN-SUFFIX,wwzy.tv                 # 影视资源站API
+DOMAIN-SUFFIX,hsckzy888.com            # 影视资源站API
+DOMAIN-SUFFIX,zuidazy.me              # 影视资源站API
+DOMAIN-SUFFIX,wolongzyw.com            # 影视资源站API
+DOMAIN-SUFFIX,xiaojizy.live            # 影视资源站API
+DOMAIN-SUFFIX,xingba111.com            # 影视资源站API
+DOMAIN-SUFFIX,hongniuzy3.com           # 影视资源站API
+DOMAIN-SUFFIX,dbzy.tv                 # 影视资源站API
+DOMAIN-SUFFIX,caiji.maotaizy.cc        # 影视采集接口
+DOMAIN-SUFFIX,111660.xyz               # 影视资源站
+DOMAIN-SUFFIX,fhapi9.com               # 影视资源站API
+DOMAIN,t.5gcdn.xyz                     # CDN接口
+
+# Emby及弹幕服务
+DOMAIN-SUFFIX,dandanplay.net           # 弹弹play弹幕服务
+
+# 成人影视相关
+DOMAIN-SUFFIX,kanav.ad                 # 成人影视相关
+DOMAIN-SUFFIX,memojav.net               # 成人影视网站
+
+# 成人直播平台
+DOMAIN-SUFFIX,stripchat.com          # Stripchat成人直播平台
+DOMAIN-SUFFIX,stripchat.global       # Stripchat国际域名
+DOMAIN-SUFFIX,mavrtracktor.com       # 相关追踪服务
+DOMAIN-SUFFIX,sacfedge.com           # 相关边缘网络服务
+DOMAIN-SUFFIX,doppiocdn.org          # Doppio CDN服务
+DOMAIN-SUFFIX,doppiocdn.com          # Doppio CDN服务
+DOMAIN-SUFFIX,growcdnssedge.com       # CDN边缘网络服务
+
+# JavDB核心（必须代理，非日本节点）
+DOMAIN-SUFFIX,jdforrepam.com          # JavDB核心服务
+DOMAIN-SUFFIX,c0.jdbstatic.com        # JavDB静态资源
+DOMAIN-SUFFIX,tp.spfcas.com           # JavDB相关服务
+# 播放源
+DOMAIN-SUFFIX,jable.tv                # Jable视频平台
+DOMAIN-SUFFIX,memojav.com              # 成人影视平台
+DOMAIN-SUFFIX,javp.cc                  # JAV播放源
+DOMAIN-SUFFIX,javp.cc.cd               # JAV播放源
+DOMAIN-SUFFIX,pektino.com              # 相关播放服务
+# 视频服务
+DOMAIN,api.maiyoux.com                 # 视频API
+DOMAIN-SUFFIX,missav.ai                # 成人视频平台
+# 预告片/元数据
+DOMAIN-SUFFIX,fourhoi.com              # 预告片及元数据

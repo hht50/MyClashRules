@@ -1,0 +1,10 @@
+# 独立于主广告规则；启用此覆写会前插5条精确规则。
+# 仅影响被Stash接管的匹配连接；未在K100真机验证。
+name: 小米隐私·统计与广告日志
+desc: 保守拦截5个精确主机；默认不触碰账号、云同步、查找、推送和更新。遇到异常停用回测。
+rules:
+- DOMAIN,tracking.miui.com,REJECT
+- DOMAIN,data.mistat.xiaomi.com,REJECT
+- DOMAIN,log.ad.xiaomi.com,REJECT
+- DOMAIN,m.track.ad.xiaomi.com,REJECT
+- DOMAIN,diagnosis.ad.xiaomi.com,REJECT

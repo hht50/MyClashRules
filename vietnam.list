@@ -95,6 +95,18 @@ DOMAIN-SUFFIX,vietnam.travel
 # 后续如有应用连接中的裸 IP，应先核实用途、归属和共享情况，
 # 再按单个地址（IPv4 /32 或 IPv6 /128）评估，不直接扩大网段。
 
+# ===== 补充：零售、书店与已核实资源入口 =====
+# The Gioi Di Dong：实际官网为 .com，原有 .vn 总规则不能覆盖。
+# 来源：https://www.thegioididong.com/tos
+DOMAIN-SUFFIX,thegioididong.com
+# Tiki：官网直接引用的图标、图片资源主机；主站 tiki.vn 已被 .vn 覆盖。
+# 仅添加已观察的 salt 主机，不据此扩大到整个共享资源平台。
+# 来源：https://tiki.vn/
+DOMAIN,salt.tikicdn.com
+# Fahasa：越南网上书店；后缀规则也包含官网引用的 cdn1.fahasa.com。
+# 来源：https://www.fahasa.com/
+DOMAIN-SUFFIX,fahasa.com
+
 # ===== .vn 国家域名兜底 =====
 # 匹配 vn 及其全部子域，包括 .com.vn、.gov.vn、.edu.vn。
 # 原有 shopee.vn、lazada.vn、dantri.com.vn 等条目已被包含，无需重复。

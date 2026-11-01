@@ -60,6 +60,41 @@ DOMAIN-SUFFIX,loigiaihay.com
 # Tuyen Sinh 247：课程与考试学习。
 DOMAIN-SUFFIX,tuyensinh247.com
 
+# ===== 新增：影音服务的非 .vn 入口 =====
+# FPT Play：官网及 FPT 官方支持资料列出的入口。
+# 来源：https://fpt.vn/tin-tuc/cach-dang-nhap-tai-khoan-fpt-play-tren-nhieu-thiet-bi-15179.html
+# fptplay.vn 已由 .vn 覆盖，这里仅补 fptplay.net。
+DOMAIN-SUFFIX,fptplay.net
+# NhacCuaTui：官方音乐服务主域；nct.vn 及其资源子域已由 .vn 覆盖。
+# 来源：https://www.nhaccuatui.com/terms-of-use
+DOMAIN-SUFFIX,nhaccuatui.com
+
+# ===== 新增：新闻静态资源 =====
+# VietNamNet 官网直接引用的静态资源主机；仅添加已核实主机，
+# 不将整个 vnncdn.net（可能含统计等子域）直接扩大为后缀规则。
+# 来源：https://vietnamnet.vn/
+DOMAIN,static.vnncdn.net
+
+# ===== 新增：交通、票务与旅游 =====
+# Vietnam Airlines：航空公司官网及其子域，第三方支付仍按主配置处理。
+# 来源：https://www.vietnamairlines.com/
+DOMAIN-SUFFIX,vietnamairlines.com
+# Bamboo Airways：航空公司官网及其子域。
+# 来源：https://www.bambooairways.com/
+DOMAIN-SUFFIX,bambooairways.com
+# Vexere：越南出行票务平台；不将其引用的 storage.googleapis.com 整体纳入。
+# 来源：https://vexere.com/
+DOMAIN-SUFFIX,vexere.com
+# 越南官方旅游网站；域名为 .travel，不在 .vn 覆盖范围内。
+# 来源：https://vietnam.travel/
+DOMAIN-SUFFIX,vietnam.travel
+
+# ===== IP 维护说明 =====
+# 本轮未添加固定 IP：官网解析地址可能变化，也可能属于共享 CDN。
+# 不将“IP 地理位置在越南”视为服务专属归属证据。
+# 后续如有应用连接中的裸 IP，应先核实用途、归属和共享情况，
+# 再按单个地址（IPv4 /32 或 IPv6 /128）评估，不直接扩大网段。
+
 # ===== .vn 国家域名兜底 =====
 # 匹配 vn 及其全部子域，包括 .com.vn、.gov.vn、.edu.vn。
 # 原有 shopee.vn、lazada.vn、dantri.com.vn 等条目已被包含，无需重复。

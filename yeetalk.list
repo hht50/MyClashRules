@@ -17,4 +17,4 @@ DOMAIN-SUFFIX,yeetalk-client-net-diagnosis.cn-hangzhou.log.aliyuncs.com
 DOMAIN-SUFFIX,oser.ns.aliyuncs.com
 DOMAIN-SUFFIX,oslogs.umeng.com
 
-
+IP-CIDR,221.229.52.198/32,no-resolve

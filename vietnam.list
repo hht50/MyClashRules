@@ -1,51 +1,32 @@
-# 电子商务与零售 (E-commerce & Retail)
-DOMAIN-SUFFIX,shopee.vn
-DOMAIN-SUFFIX,lazada.vn
-DOMAIN-SUFFIX,tiki.vn
-DOMAIN-SUFFIX,sendo.vn
-DOMAIN-SUFFIX,thegioididong.com.vn
+# Vietnam / 越南服务分流
+# 格式：classical / text；由主配置 RULE-SET 指定策略，本文件不写策略名。
+# 保留原有 .vn 全域路由；它不代表服务器或公司实际位于越南。
+# 不包含共享 CDN IP、全球云平台后缀或广告拦截规则。
+# 更新：2026-11-01
+
+# VnExpress 主站与资源 CDN
+DOMAIN-SUFFIX,vnexpress.net
+DOMAIN-SUFFIX,vnecdn.net
+
+# 电商与零售
 DOMAIN-SUFFIX,dienmayxanh.com
-DOMAIN-SUFFIX,fptshop.com.vn
-DOMAIN-SUFFIX,cellphones.com.vn
 DOMAIN-SUFFIX,bachhoaxanh.com
 DOMAIN-SUFFIX,chotot.com
 DOMAIN-SUFFIX,hoanghamobile.com
 
-# 新闻与媒体 (News & Media)
-DOMAIN-SUFFIX,vnexpress.net
-DOMAIN,i-vnexpress.vnecdn.net
-DOMAIN,s1.vnecdn.net
-DOMAIN-SUFFIX,dantri.com.vn
-DOMAIN-SUFFIX,tuoitre.vn
-DOMAIN-SUFFIX,thanhnien.vn
-DOMAIN-SUFFIX,vietnamnet.vn
-DOMAIN-SUFFIX,vtv.vn
-DOMAIN-SUFFIX,kenh14.vn
+# 新闻与媒体
 DOMAIN-SUFFIX,baomoi.com
-DOMAIN-SUFFIX,24h.com.vn
-DOMAIN-SUFFIX,soha.vn
-DOMAIN-SUFFIX,vtcnews.vn
-DOMAIN-SUFFIX,laodong.vn
-DOMAIN-SUFFIX,tienphong.vn
 
-# 社交与技术论坛 (Social & Tech Forums)
+# 社交、搜索与社区
 DOMAIN-SUFFIX,zalo.me
 DOMAIN-SUFFIX,coccoc.com
-DOMAIN-SUFFIX,tinhte.vn
-DOMAIN-SUFFIX,voz.vn
-DOMAIN-SUFFIX,genk.vn
 DOMAIN-SUFFIX,ddth.com
-DOMAIN-SUFFIX,techrum.vn
 DOMAIN-SUFFIX,vn-zoom.com
 
-# 教育与政府 (Education & Government)
+# 教育
 DOMAIN-SUFFIX,vietjack.com
 DOMAIN-SUFFIX,loigiaihay.com
 DOMAIN-SUFFIX,tuyensinh247.com
-DOMAIN-SUFFIX,thuvienphapluat.vn
-DOMAIN-SUFFIX,azota.vn
-DOMAIN-SUFFIX,chinhphu.vn
-DOMAIN-SUFFIX,gov.vn
-DOMAIN-SUFFIX,edu.vn
 
+# 越南国家域名，包含其全部子域（如 .com.vn / .gov.vn / .edu.vn）
 DOMAIN-SUFFIX,vn

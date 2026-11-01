@@ -13,6 +13,8 @@ DOMAIN-SUFFIX,hoanghamobile.com
 
 # 新闻与媒体 (News & Media)
 DOMAIN-SUFFIX,vnexpress.net
+DOMAIN,i-vnexpress.vnecdn.net
+DOMAIN,s1.vnecdn.net
 DOMAIN-SUFFIX,dantri.com.vn
 DOMAIN-SUFFIX,tuoitre.vn
 DOMAIN-SUFFIX,thanhnien.vn

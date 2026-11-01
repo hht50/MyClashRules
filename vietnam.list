@@ -1,32 +1,68 @@
 # Vietnam / 越南服务分流
-# 格式：classical / text；由主配置 RULE-SET 指定策略，本文件不写策略名。
-# 保留原有 .vn 全域路由；它不代表服务器或公司实际位于越南。
-# 不包含共享 CDN IP、全球云平台后缀或广告拦截规则。
-# 更新：2026-11-01
+# 更新日期：2026-11-01
+#
+# 【接入方式】
+# 本文件为 classical / text 规则集，不是完整配置，也不是 .stoverride。
+# 在主配置中通过 RULE-SET 指向“越南服务”策略组；实际出口取决于组内选择。
+# 希望使用越南出口时，请选择有可用越南节点的“越南-自动”。
+#
+# 【匹配范围】
+# DOMAIN-SUFFIX 同时匹配域名本身及其全部子域名。
+# 例如 vnexpress.net 包含 api3.vnexpress.net、usi-saas.vnexpress.net。
+# .vn 总规则保留原有覆盖；域名后缀不保证服务器、公司或实际出口在越南。
+# 本列表只决定分流，不承担广告拦截；普通规则按主配置顺序匹配，
+# 命中前面的其他规则时，不一定执行到本列表。
+#
+# 【维护约定】
+# 注释独占一行，不在规则末尾追加说明，避免客户端解析差异。
+# 已被后缀规则覆盖的子域名不再重复添加。
+# 不按应用名称扩大到整个共享云平台、公共 CDN 或共享 IP 网段。
+# 新域名优先依据应用连接记录补充；本列表不保证覆盖所有第三方依赖。
+# 更新规则集后，关闭应用旧连接再复测；旧连接不会因列表更新自动改道。
 
-# VnExpress 主站与资源 CDN
+# ===== VnExpress：主站、接口与资源 =====
+# 主站及其子域接口；截图中 api3、usi-saas 已匹配此范围。
 DOMAIN-SUFFIX,vnexpress.net
+# 覆盖截图中的 i-vnexpress.vnecdn.net、s1.vnecdn.net，
+# 以及 vnecdn.net 下其他子域；此范围不限于截图中的两个主机。
 DOMAIN-SUFFIX,vnecdn.net
 
-# 电商与零售
+# ===== 电商与零售：使用非 .vn 域名的原有条目 =====
+# Dien May Xanh：电器零售。
 DOMAIN-SUFFIX,dienmayxanh.com
+# Bach Hoa Xanh：商超与日用品零售。
 DOMAIN-SUFFIX,bachhoaxanh.com
+# Cho Tot：分类信息与交易平台。
 DOMAIN-SUFFIX,chotot.com
+# Hoang Ha Mobile：手机与数码零售。
 DOMAIN-SUFFIX,hoanghamobile.com
 
-# 新闻与媒体
+# ===== 新闻聚合 =====
+# Bao Moi：新闻聚合站点。
 DOMAIN-SUFFIX,baomoi.com
 
-# 社交、搜索与社区
+# ===== 社交、搜索与社区 =====
+# Zalo：保留原有入口覆盖，不代表包含其全部通信、媒体和推送依赖。
+# 主配置若已更早引用独立 Zalo 规则集，以实际先匹配到的规则为准。
 DOMAIN-SUFFIX,zalo.me
+# Coc Coc：搜索与浏览器相关站点。
 DOMAIN-SUFFIX,coccoc.com
+# DDTH：技术论坛。
 DOMAIN-SUFFIX,ddth.com
+# VN-Zoom：技术社区。
 DOMAIN-SUFFIX,vn-zoom.com
 
-# 教育
+# ===== 教育与学习 =====
+# VietJack：学习资料。
 DOMAIN-SUFFIX,vietjack.com
+# Loi Giai Hay：学习与题解资料。
 DOMAIN-SUFFIX,loigiaihay.com
+# Tuyen Sinh 247：课程与考试学习。
 DOMAIN-SUFFIX,tuyensinh247.com
 
-# 越南国家域名，包含其全部子域（如 .com.vn / .gov.vn / .edu.vn）
+# ===== .vn 国家域名兜底 =====
+# 匹配 vn 及其全部子域，包括 .com.vn、.gov.vn、.edu.vn。
+# 原有 shopee.vn、lazada.vn、dantri.com.vn 等条目已被包含，无需重复。
+# 只按域名后缀匹配，不覆盖其他后缀，也不按目标 IP 所在地判断。
+# 属于范围较广的路由选择；列表内顺序不改变主配置的规则优先级。
 DOMAIN-SUFFIX,vn

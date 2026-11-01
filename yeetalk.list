@@ -18,3 +18,13 @@ DOMAIN-SUFFIX,oser.ns.aliyuncs.com
 DOMAIN-SUFFIX,oslogs.umeng.com
 
 IP-CIDR,221.229.52.198/32,no-resolve
+
+# 2026-11-01：用户提供的 Yeetalk 连接截图，补充未命中本组的目标。
+# 腾讯云 IM：仅匹配截图中的应用标识主机，不扩大到整个 my-imcloud.com。
+DOMAIN,1400290853-cn.rich.my-imcloud.com
+# 截图中的 UDP 目标，原先命中 MATCH；按单个 IPv4 地址补充。
+# 以下 IP 规则匹配所有端口/协议，不保证地址由 Yeetalk 独占或长期固定。
+IP-CIDR,3.0.163.78/32,no-resolve
+IP-CIDR,128.1.12.213/32,no-resolve
+# 截图中的 43.159.234.63 是上述 IM 域名的解析地址；
+# 优先跟随域名，不重复固定其解析 IP。

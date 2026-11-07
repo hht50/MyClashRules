@@ -1,0 +1,16 @@
+# 小米互联服务（Xiaomi HyperConnect）
+# 来源：macOS 端小米互联服务的 Surge 请求记录
+
+# 设备发现与设备信息
+DOMAIN-SUFFIX,idm.api.io.mi.com
+DOMAIN-SUFFIX,api.device.xiaomi.net
+
+# 小米云查找设备
+DOMAIN-SUFFIX,cn.find.api.micloud.xiaomi.net
+
+# 统计与诊断
+DOMAIN-SUFFIX,tracking.miui.com
+
+# 实测直连 106.120.178.6:5170，用途待核实
+# IP-CIDR 按 IP 匹配，不限制端口
+IP-CIDR,106.120.178.6/32,no-resolve

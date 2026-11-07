@@ -1,3 +1,4 @@
-# Apple 设备更新服务
+# gdmf.apple.com：查询受管理设备可用的软件更新。
+# APNs 通知推送使用独立的 apns.list，见仓库 README。
 
 DOMAIN,gdmf.apple.com

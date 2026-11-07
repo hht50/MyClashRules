@@ -75,6 +75,14 @@
 | --- | --- | --- |
 | [HyperConnect.list](Xiaomi/HyperConnect.list) | 小米互联服务的实测域名与 IP | `DIRECT` |
 
+### [Meta/](Meta) · Meta 旗下及相关服务
+
+| 文件 | 用途 |
+| --- | --- |
+| [Muse.list](Meta/Muse.list) | Muse 和 Meta AI 域名 |
+
+Facebook、Instagram 等规则按产品归档在此目录。迁移已有规则时，先更新引用，再处理旧路径。注意 `meta.com` 是共用域名，使用不同策略时要核对 Surge 的匹配顺序。
+
 ## 引用和维护
 
 - 在规则文件里只写匹配条件和必要注释。出站策略写在 Surge 的 `RULE-SET` 引用行。

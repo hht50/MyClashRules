@@ -8,9 +8,6 @@ DOMAIN-SUFFIX,api.device.xiaomi.net
 # 小米云查找设备
 DOMAIN-SUFFIX,cn.find.api.micloud.xiaomi.net
 
-# 统计与诊断
-DOMAIN-SUFFIX,tracking.miui.com
-
 # 实测直连 106.120.178.6:5170，用途待核实
 # IP-CIDR 按 IP 匹配，不限制端口
 IP-CIDR,106.120.178.6/32,no-resolve

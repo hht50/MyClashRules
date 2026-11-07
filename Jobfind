@@ -1,3 +1,6 @@
+# 中国招聘与公共就业分流
+# 优先维护经官方页面核对的域名。共享 CDN、动态解析地址不收录为 IP 规则。
+
 # ==============================
 # BOSS直聘及关联平台
 # ==============================
@@ -26,11 +29,6 @@ DOMAIN-SUFFIX,51mi.com
 DOMAIN-SUFFIX,liepin.com
 DOMAIN-SUFFIX,liepin.cn
 DOMAIN-SUFFIX,lietou-static.com
-DOMAIN,api-c.liepin.com
-DOMAIN,api-lpt.liepin.com
-DOMAIN,api-im.liepin.com
-DOMAIN,security.liepin.com
-DOMAIN,log.liepin.com
 DOMAIN-SUFFIX,lebanban.com
 DOMAIN-SUFFIX,duomian.com
 
@@ -118,8 +116,6 @@ DOMAIN-SUFFIX,doumi.com
 # ==============================
 # 国家级公共就业及人社平台
 # ==============================
-DOMAIN,job.mohrss.gov.cn
-DOMAIN,chrm.mohrss.gov.cn
 DOMAIN-SUFFIX,mohrss.gov.cn
 DOMAIN-SUFFIX,jobonline.cn
 DOMAIN-SUFFIX,ncss.cn
@@ -233,13 +229,10 @@ DOMAIN-SUFFIX,cqrc.net
 DOMAIN-SUFFIX,cqtalent.com
 
 # 58同城主站及全部子域名
-DOMAIN-SUFFIX,58.com
 
 # 赶集招聘
-DOMAIN-SUFFIX,ganji.com
 
 # 中华英才网（58集团关联平台）
-DOMAIN-SUFFIX,chinahr.com
 
 # 安居客（58集团旗下）
 DOMAIN-SUFFIX,anjuke.com
@@ -251,20 +244,11 @@ DOMAIN-SUFFIX,58daojia.com
 DOMAIN-SUFFIX,zhuanzhuan.com
 
 # 招聘商家端及开放平台
-DOMAIN,open.58.com
-DOMAIN,down.58.com
 
 
 # 官方就业及国企招聘补漏
-DOMAIN-SUFFIX,jobonline.cn
-DOMAIN-SUFFIX,newjobs.com.cn
-DOMAIN-SUFFIX,12333.gov.cn
-DOMAIN-SUFFIX,iguopin.com
-DOMAIN-SUFFIX,ciiczhaopin.com
 DOMAIN-SUFFIX,ciicscjob.com
 DOMAIN-SUFFIX,cyol.com
-DOMAIN-SUFFIX,jobs.ncss.cn
-DOMAIN,chrm.mohrss.gov.cn
 
 # 校招补漏
 DOMAIN-SUFFIX,haitou.cc
@@ -274,5 +258,21 @@ DOMAIN-SUFFIX,job5156.com
 DOMAIN-SUFFIX,jobcn.com
 
 # 蓝领招聘补漏
-DOMAIN-SUFFIX,yupao.com
-DOMAIN-SUFFIX,doumi.com
+
+# 招聘与公共就业平台补充
+# 597直聘
+DOMAIN-SUFFIX,597.com
+# 齐鲁人才网
+DOMAIN-SUFFIX,qlrc.com
+# 桂聘人才网
+DOMAIN-SUFFIX,guipin.com
+# 最佳东方服务业招聘
+DOMAIN-SUFFIX,veryeast.cn
+# 高校人才网
+DOMAIN-SUFFIX,gaoxiaojob.com
+# 广东人才网
+DOMAIN-SUFFIX,gdrc.com
+# 广东公共求职招聘服务平台
+DOMAIN,ggfw.hrss.gd.gov.cn
+# 深圳市公共就业服务平台
+DOMAIN,hrsspub.sz.gov.cn

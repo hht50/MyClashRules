@@ -1,3 +1,5 @@
+# 广告与追踪端点拦截
+
 DOMAIN,apm-native.xiaohongshu.com
 DOMAIN,dt.adsafeprotected.com
 DOMAIN-SUFFIX,tpsc-uw1.doubleverify.com

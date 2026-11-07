@@ -10,8 +10,6 @@
 | --- | --- | --- |
 | [Push.list](Apple/Push.list) | Apple 推送通知服务（APNs）的补充清单，含域名、IPv4 和 IPv6 | `🇭🇰香港负载均衡` |
 | [外部 apns.list](https://github.com/QuixoticHeart/rule-set/blob/ruleset/loon/apns.list) | Apple 推送通知服务（APNs）。用于系统和 App 的通知推送，主要域名为 `*.push.apple.com` | `🇭🇰香港负载均衡` |
-| [Updates.list](Apple/Updates.list) | `gdmf.apple.com`，受管理设备的软件更新可用性查询 | `🇭🇰香港智选` |
-| [iCloud-Gateway.list](Apple/iCloud-Gateway.list) | `gateway.icloud.com`，CloudKit 内容网关直连 | `DIRECT` |
 | [Ads-PreMatch.list](Apple/Ads-PreMatch.list) | Apple 广告端点，预匹配标志放在 Surge 引用行 | `REJECT + pre-matching` |
 
 ### [Microsoft/](Microsoft) · 微软服务例外

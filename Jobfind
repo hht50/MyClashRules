@@ -276,3 +276,17 @@ DOMAIN-SUFFIX,gdrc.com
 DOMAIN,ggfw.hrss.gd.gov.cn
 # 深圳市公共就业服务平台
 DOMAIN,hrsspub.sz.gov.cn
+
+# 招聘 App 与垂直招工平台
+# 才通直聘 App 官方站
+DOMAIN-SUFFIX,job001.cn
+# 吉工家招聘与招工
+DOMAIN-SUFFIX,jgjapp.com
+# 青团社兼职 App
+DOMAIN-SUFFIX,qtshe.com
+# 筑招网建筑招聘
+DOMAIN-SUFFIX,zhupinhr.com
+# 老板直聘
+DOMAIN-SUFFIX,lbzhipin.com
+# 今日招聘 App 接口主机
+DOMAIN,jrzpapi2.jdzj.com

@@ -8,8 +8,8 @@
 
 | 文件 | 用途 | 当前 Surge 策略 |
 | --- | --- | --- |
-| [Push.list](Apple/Push.list) | Apple 推送通知服务（APNs）的补充清单，含域名、IPv4 和 IPv6 | `🇭🇰香港负载均衡` |
-| [外部 apns.list](https://github.com/QuixoticHeart/rule-set/blob/ruleset/loon/apns.list) | Apple 推送通知服务（APNs）。用于系统和 App 的通知推送，主要域名为 `*.push.apple.com` | `🇭🇰香港负载均衡` |
+| [Push.list](Apple/Push.list) | Apple 推送通知服务（APNs）的补充清单，含域名、IPv4 和 IPv6 | `Apple 推送`（香港负载均衡、香港智选、直连） |
+| [外部 apns.list](https://github.com/QuixoticHeart/rule-set/blob/ruleset/loon/apns.list) | Apple 推送通知服务（APNs）。用于系统和 App 的通知推送，主要域名为 `*.push.apple.com` | `Apple 推送`（香港负载均衡、香港智选、直连） |
 | [Ads-PreMatch.list](Apple/Ads-PreMatch.list) | Apple 广告端点，预匹配标志放在 Surge 引用行 | `REJECT + pre-matching` |
 
 ### [Microsoft/](Microsoft) · 微软服务例外

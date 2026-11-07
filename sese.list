@@ -330,3 +330,13 @@ DOMAIN-SUFFIX,fourhoi.com              # 预告片及元数据
 DOMAIN-SUFFIX,5721004.xyz          # 相关网站服务
 DOMAIN-SUFFIX,515355.xyz           # 相关网站服务
 DOMAIN-SUFFIX,pandalive.co.kr      # PandaLive韩国直播平台
+
+# 补充域名
+DOMAIN,1729130453.rsc.cdn77.org
+DOMAIN-SUFFIX,tangxinvlog.app
+DOMAIN-SUFFIX,bfzyapi.com
+DOMAIN,h5.jianpianips1.com
+DOMAIN,api.zuidapi.com
+DOMAIN,www.huyaapi.com
+DOMAIN-SUFFIX,jszyapi.com
+DOMAIN-SUFFIX,155api.com

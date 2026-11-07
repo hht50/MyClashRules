@@ -35,8 +35,6 @@
 | 文件 | 用途 | 当前 Surge 策略 |
 | --- | --- | --- |
 | [JPush.list](AppServices/JPush.list) | 极光推送 | `🇭🇰香港负载均衡` |
-| [DCloud.list](AppServices/DCloud.list) | DCloud 应用接口 | `🇭🇰香港智选` |
-| [Suiying.list](AppServices/Suiying.list) | 随影服务端点 | `DIRECT` |
 
 ### [Network/](Network) · 按 IP 或线路维护的例外
 

@@ -1,5 +1,5 @@
 # Vietnam / 越南服务分流
-# 更新日期：2026-11-01
+# 更新日期：2026-11-13
 #
 # 【接入方式】
 # 本文件为 classical / text 规则集，不是完整配置，也不是 .stoverride。
@@ -106,6 +106,40 @@ DOMAIN,salt.tikicdn.com
 # Fahasa：越南网上书店；后缀规则也包含官网引用的 cdn1.fahasa.com。
 # 来源：https://www.fahasa.com/
 DOMAIN-SUFFIX,fahasa.com
+
+# ===== 越南语影视站点与试播相关主机 =====
+DOMAIN-KEYWORD,animevietsub
+DOMAIN-SUFFIX,mephim.cc
+DOMAIN-SUFFIX,lamphim.net
+DOMAIN-SUFFIX,motphimtvx.com
+DOMAIN-SUFFIX,tvhayvn.org
+DOMAIN-SUFFIX,phimtvhay.org
+DOMAIN-SUFFIX,motphim.hair
+DOMAIN-SUFFIX,motchill.store
+DOMAIN-SUFFIX,motchillhd.net
+DOMAIN-SUFFIX,animevsub.io
+DOMAIN-SUFFIX,hh3d.com
+DOMAIN-SUFFIX,vieon.vn
+DOMAIN-SUFFIX,animevietsub.best
+DOMAIN-SUFFIX,hdbophim.com
+DOMAIN-SUFFIX,luotphimx.net
+DOMAIN-SUFFIX,ophim.live
+DOMAIN-SUFFIX,motchillw.com
+DOMAIN-SUFFIX,ophim1.com
+DOMAIN-SUFFIX,streamvsmov.com
+DOMAIN-SUFFIX,playembed.vip
+DOMAIN-SUFFIX,guphim.my
+DOMAIN-SUFFIX,opstream16.com
+DOMAIN-SUFFIX,guphim.fun
+DOMAIN-SUFFIX,onflixcdn.com
+DOMAIN,motphim.gay
+DOMAIN,sv1.video-cdn.online
+DOMAIN,cdn.phimsrv.com
+DOMAIN,phimapi.com
+DOMAIN,phim.nguonc.com
+DOMAIN,player.phimapi.com
+DOMAIN,embed18.streamc.xyz
+DOMAIN,phimimg.com
 
 # ===== .vn 国家域名兜底 =====
 # 匹配 vn 及其全部子域，包括 .com.vn、.gov.vn、.edu.vn。

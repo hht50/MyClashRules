@@ -47,6 +47,7 @@
 
 | 文件 | 用途 | 当前 Surge 策略 |
 | --- | --- | --- |
+| [Feishu.list](Services/Feishu.list) | 飞书中国版服务域名 | 由客户端指定 |
 | [115.list](Services/115.list) | 115 服务，根域后缀覆盖子域名 | `DIRECT` |
 | [Lyrics.list](Services/Lyrics.list) | 歌词服务端点 | `🇭🇰香港智选` |
 | [Download-Payment.list](Services/Download-Payment.list) | 下载与支付相关域名，保留原分流 | `Yellow` |

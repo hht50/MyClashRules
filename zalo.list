@@ -16,7 +16,6 @@ DOMAIN-SUFFIX,zalopay.com.vn
 
 # >> Ads & Tracking (REJECT)
 DOMAIN-SUFFIX,ads-platform.zalo.me
-DOMAIN-KEYWORD,tracking
 
 # >> VNG Infrastructure (PROXY/DIRECT)
 DOMAIN-SUFFIX,vng.com.vn

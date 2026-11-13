@@ -7,153 +7,153 @@
 # ========================
 # OpenAI
 # ========================
-DOMAIN-SUFFIX,openai.com,AI
-DOMAIN-SUFFIX,chatgpt.com,AI
-DOMAIN-SUFFIX,oaistatic.com,AI
-DOMAIN-SUFFIX,oaiusercontent.com,AI
-DOMAIN-SUFFIX,openaicom.imgix.net,AI
-DOMAIN-SUFFIX,openai.azure.com,AI
-DOMAIN-SUFFIX,openai-api.arkoselabs.com,AI
-DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net,AI
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openai.azure.com
+DOMAIN-SUFFIX,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
 
 # ========================
 # Google AI / Gemini
 # ========================
-DOMAIN-SUFFIX,ai.google.dev,AI
-DOMAIN-SUFFIX,aiplatform.googleapis.com,AI
-DOMAIN-SUFFIX,generativeai.google,AI
-DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI
-DOMAIN-SUFFIX,gemini.google,AI
-DOMAIN-SUFFIX,makersuite.google.com,AI
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,makersuite.google.com
 
 # ========================
 # Microsoft AI
 # ========================
-DOMAIN-SUFFIX,ai.azure.com,AI
-DOMAIN-SUFFIX,copilot.microsoft.com,AI
-DOMAIN-SUFFIX,githubcopilot.com,AI
+DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,githubcopilot.com
 
 # ========================
 # Anthropic
 # ========================
-DOMAIN-SUFFIX,anthropic.com,AI
-DOMAIN-SUFFIX,claude.ai,AI
-DOMAIN-SUFFIX,claude.com,AI
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 
 # ========================
 # Meta AI
 # ========================
-DOMAIN-SUFFIX,meta.ai,AI
+DOMAIN-SUFFIX,meta.ai
 
 # ========================
 # xAI
 # ========================
-DOMAIN-SUFFIX,grok.com,AI
+DOMAIN-SUFFIX,grok.com
 
 # ========================
 # HuggingFace
 # ========================
-DOMAIN-SUFFIX,huggingface.co,AI
-DOMAIN-SUFFIX,hf.co,AI
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
 
 # ========================
 # Perplexity
 # ========================
-DOMAIN-SUFFIX,perplexity.ai,AI
-DOMAIN-SUFFIX,perplexity.com,AI
-DOMAIN-SUFFIX,pplx.ai,AI
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
 
 # ========================
 # Stability / Diffusion
 # ========================
-DOMAIN-SUFFIX,stability.ai,AI
-DOMAIN-SUFFIX,dreamstudio.ai,AI
-DOMAIN-SUFFIX,civitai.com,AI
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,dreamstudio.ai
+DOMAIN-SUFFIX,civitai.com
 
 # ========================
 # Image / Video AI
 # ========================
-DOMAIN-SUFFIX,midjourney.com,AI
-DOMAIN-SUFFIX,runwayml.com,AI
-DOMAIN-SUFFIX,ideogram.ai,AI
-DOMAIN-SUFFIX,leonardo.ai,AI
-DOMAIN-SUFFIX,luma.ai,AI
-DOMAIN-SUFFIX,pika.art,AI
-DOMAIN-SUFFIX,kaiber.ai,AI
-DOMAIN-SUFFIX,krea.ai,AI
-DOMAIN-SUFFIX,playgroundai.com,AI
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,kaiber.ai
+DOMAIN-SUFFIX,krea.ai
+DOMAIN-SUFFIX,playgroundai.com
 
 # ========================
 # Voice AI
 # ========================
-DOMAIN-SUFFIX,elevenlabs.io,AI
-DOMAIN-SUFFIX,elevenlabs.com,AI
-DOMAIN-SUFFIX,murf.ai,AI
-DOMAIN-SUFFIX,respeecher.com,AI
-DOMAIN-SUFFIX,voice.ai,AI
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabs.com
+DOMAIN-SUFFIX,murf.ai
+DOMAIN-SUFFIX,respeecher.com
+DOMAIN-SUFFIX,voice.ai
 
 # ========================
 # Writing AI
 # ========================
-DOMAIN-SUFFIX,jasper.ai,AI
-DOMAIN-SUFFIX,copy.ai,AI
-DOMAIN-SUFFIX,rytr.me,AI
-DOMAIN-SUFFIX,sudowrite.com,AI
-DOMAIN-SUFFIX,quillbot.com,AI
-DOMAIN-SUFFIX,grammarly.com,AI
+DOMAIN-SUFFIX,jasper.ai
+DOMAIN-SUFFIX,copy.ai
+DOMAIN-SUFFIX,rytr.me
+DOMAIN-SUFFIX,sudowrite.com
+DOMAIN-SUFFIX,quillbot.com
+DOMAIN-SUFFIX,grammarly.com
 
 # ========================
 # Coding AI
 # ========================
-DOMAIN-SUFFIX,codeium.com,AI
-DOMAIN-SUFFIX,tabnine.com,AI
-DOMAIN-SUFFIX,cursor.com,AI
-DOMAIN-SUFFIX,cursor.sh,AI
-DOMAIN-SUFFIX,replit.com,AI
-DOMAIN-SUFFIX,supermaven.com,AI
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,tabnine.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,supermaven.com
 
 # ========================
 # AI Platforms
 # ========================
-DOMAIN-SUFFIX,replicate.com,AI
-DOMAIN-SUFFIX,openrouter.ai,AI
-DOMAIN-SUFFIX,together.ai,AI
-DOMAIN-SUFFIX,deepinfra.com,AI
-DOMAIN-SUFFIX,fal.ai,AI
-DOMAIN-SUFFIX,fireworks.ai,AI
-DOMAIN-SUFFIX,groq.com,AI
-DOMAIN-SUFFIX,lambda.ai,AI
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,deepinfra.com
+DOMAIN-SUFFIX,fal.ai
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,lambda.ai
 
 # ========================
 # Chat / Assistant
 # ========================
-DOMAIN-SUFFIX,character.ai,AI
-DOMAIN-SUFFIX,poe.com,AI
-DOMAIN-SUFFIX,phind.com,AI
-DOMAIN-SUFFIX,pi.ai,AI
-DOMAIN-SUFFIX,manus.ai,AI
-DOMAIN-SUFFIX,manus.im,AI
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,pi.ai
+DOMAIN-SUFFIX,manus.ai
+DOMAIN-SUFFIX,manus.im
 
 # ========================
 # Audio / Music AI
 # ========================
-DOMAIN-SUFFIX,suno.ai,AI
-DOMAIN-SUFFIX,udio.com,AI
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,udio.com
 
 # ========================
 # Other AI Services
 # ========================
-DOMAIN-SUFFIX,cohere.ai,AI
-DOMAIN-SUFFIX,cohere.com,AI
-DOMAIN-SUFFIX,ai21.com,AI
-DOMAIN-SUFFIX,ai21labs.com,AI
-DOMAIN-SUFFIX,inflection.ai,AI
-DOMAIN-SUFFIX,reka.ai,AI
-DOMAIN-SUFFIX,exa.ai,AI
-DOMAIN-SUFFIX,otter.ai,AI
-DOMAIN-SUFFIX,meetgeek.ai,AI
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,ai21.com
+DOMAIN-SUFFIX,ai21labs.com
+DOMAIN-SUFFIX,inflection.ai
+DOMAIN-SUFFIX,reka.ai
+DOMAIN-SUFFIX,exa.ai
+DOMAIN-SUFFIX,otter.ai
+DOMAIN-SUFFIX,meetgeek.ai
 
 # ========================
 # Catch-all AI domains
 # ========================
-DOMAIN-SUFFIX,ai,AI
+DOMAIN-SUFFIX,ai

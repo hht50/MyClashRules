@@ -116,6 +116,13 @@ rules:
 
 ## 维护说明
 
+- [越南通用](vngeneral)用于当前 Mihomo 配置。[vietnam.list](vietnam.list)保留独立条目，合并前逐条核对用途。
+- [成人媒体通用版](Media/Adu)为主维护文件。[sese.list](sese.list) 和 [Stash 规则](Stash/Rules/Adu.list) 是兼容入口，通用规则变动时同步核对。
+- [台湾 IPv4 清单](dailoanip.list)的来源和生成日期尚未核实。启用前先核对网段归属与更新方式。
+- [Gameupdate](Gameupdate)按游戏资源域名匹配。需要补游戏下载节点时，按日志添加具体主机，避免把共享 CDN 的其他业务一起直连。
+- [Meta 社交旧清单](facebook.list)含 Facebook、Instagram 和 ASN 匹配，引用前核对客户端支持与策略范围。
+
+
 - 域名需要连同子域名匹配时使用 `DOMAIN-SUFFIX`，单一主机使用 `DOMAIN`。共用域名（如 `meta.com`）修改前应核对命中顺序。
 - 规则统一在 `main`。成人媒体通用版和越南版各用独立文件。[sese.list](sese.list) 以及 `Stash/Overrides/` 下的路径供已有配置继续使用。
 - 修改后刷新规则集，用客户端日志检查命中。如果改了 provider 定义、策略或顺序，刷新整份配置。

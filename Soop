@@ -3,7 +3,6 @@ DOMAIN-SUFFIX,sooplive.com
 # SOOP Live 分流规则
 # ========================
 
-DOMAIN-SUFFIX,sooplive.com
 DOMAIN-SUFFIX,www.sooplive.com
 DOMAIN-SUFFIX,api.sooplive.com
 DOMAIN-SUFFIX,static.sooplive.com

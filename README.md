@@ -114,6 +114,13 @@ rules:
 | [Apple 广告端点](Apple/Ads-PreMatch.list) | Surge 可在引用行配置预匹配 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Ads-PreMatch.list) |
 | [拦截例外](Overrides/Reject.list) | 广告与追踪端点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Overrides/Reject.list) |
 
+### 两份配置共用的补充规则
+
+| 规则集 | 用途 | 订阅地址 |
+| --- | --- | --- |
+| [Emby 服务](Media/Emby.list) | 自用 Emby 和关联资源域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Emby.list) |
+| [开发服务直连](Services/Developer-Direct.list) | NewCLI 和 DuckCoding | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Developer-Direct.list) |
+
 ## 维护说明
 
 - [越南通用](vngeneral)用于当前 Mihomo 配置。[vietnam.list](vietnam.list)保留独立条目，合并前逐条核对用途。

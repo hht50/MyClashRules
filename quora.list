@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,quora.com,POLICY
-DOMAIN-SUFFIX,poe.com,POLICY
-DOMAIN-SUFFIX,quoracdn.net,POLICY
-DOMAIN-SUFFIX,api.quora.com,POLICY
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,quoracdn.net
+DOMAIN-SUFFIX,api.quora.com

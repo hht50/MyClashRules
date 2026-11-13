@@ -1,4 +1,4 @@
-# MyClashRules
+# Proxy Routing Rules · 代理分流规则
 
 为 Surge、Mihomo 和 OpenClash 维护的个人分流规则集。每份规则描述匹配条件，出口策略由客户端配置决定。
 
@@ -8,11 +8,11 @@
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Feishu.list) |
-| [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Apple/Push.list) |
-| [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Xiaomi/HyperConnect.list) |
-| [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/vngeneral) |
-| [115](Services/115.list) | 115 服务域名 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/115.list) |
+| [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Feishu.list) |
+| [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push.list) |
+| [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
+| [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/vngeneral) |
+| [115](Services/115.list) | 115 服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/115.list) |
 
 ## 快速接入
 
@@ -23,7 +23,7 @@
 在 `[Rule]` 中加入：
 
 ```ini
-RULE-SET,https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Feishu.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Feishu.list,DIRECT,update-interval=86400
 ```
 
 ### Mihomo / OpenClash
@@ -36,7 +36,7 @@ rule-providers:
     type: http
     behavior: classical
     format: text
-    url: https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Feishu.list
+    url: https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Feishu.list
     path: ./ruleset/feishu-lark.list
     interval: 86400
 
@@ -52,79 +52,79 @@ rules:
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Feishu.list) |
-| [Microsoft 直连](Microsoft/Direct.list) | 微软服务例外 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Microsoft/Direct.list) |
-| [Parallels 直连](Parallels/Direct.list) | 虚拟机软件服务 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Parallels/Direct.list) |
-| [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Xiaomi/HyperConnect.list) |
-| [达利集团](Services/DaliGroup.list) | 企业服务域名 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/DaliGroup.list) |
-| [求职](Jobfind) | 求职站点 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Jobfind) |
-| [Copilot](Copilot) | Microsoft Copilot | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Copilot) |
-| [AI 服务](ai) | AI 服务分流 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/ai) |
+| [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Feishu.list) |
+| [Microsoft 直连](Microsoft/Direct.list) | 微软服务例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Microsoft/Direct.list) |
+| [Parallels 直连](Parallels/Direct.list) | 虚拟机软件服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Parallels/Direct.list) |
+| [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
+| [达利集团](Services/DaliGroup.list) | 企业服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/DaliGroup.list) |
+| [求职](Jobfind) | 求职站点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Jobfind) |
+| [Copilot](Copilot) | Microsoft Copilot | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Copilot) |
+| [AI 服务](ai) | AI 服务分流 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/ai) |
 
 ### 通信与推送
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Apple/Push.list) |
-| [极光推送](AppServices/JPush.list) | JPush 服务 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/AppServices/JPush.list) |
-| [LINE](LINE) | LINE 服务 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/LINE) |
-| [Zalo](zalo.list) | 越南即时通信 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/zalo.list) |
-| [Yeetalk](yeetalk.list) | 语言交流应用 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/yeetalk.list) |
-| [Meta AI · Muse](Meta/Muse.list) | Muse 和 Meta AI 域名 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Meta/Muse.list) |
+| [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push.list) |
+| [极光推送](AppServices/JPush.list) | JPush 服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/AppServices/JPush.list) |
+| [LINE](LINE) | LINE 服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/LINE) |
+| [Zalo](zalo.list) | 越南即时通信 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/zalo.list) |
+| [Yeetalk](yeetalk.list) | 语言交流应用 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/yeetalk.list) |
+| [Meta AI · Muse](Meta/Muse.list) | Muse 和 Meta AI 域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Meta/Muse.list) |
 
 ### 媒体、游戏与下载
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [日本媒体](Media/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Media/JapanMedia.list) |
-| [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/TIKTOK) |
-| [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Soop) |
-| [TMDB](TMDB) | 影视元数据 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/TMDB) |
-| [Trakt](Trakt) | 影视记录服务 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Trakt) |
-| [歌词服务](Services/Lyrics.list) | 歌词相关端点 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Lyrics.list) |
-| [115](Services/115.list) | 115 服务域名 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/115.list) |
-| [下载与支付](Services/Download-Payment.list) | 下载与支付相关例外 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Download-Payment.list) |
-| [游戏更新](Gameupdate) | 游戏更新流量 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Gameupdate) |
-| [TFT](TFT) | 云顶之弈相关规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/TFT) |
-| [PUBG](PUBG) | PUBG 相关规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/PUBG) |
-| [成人媒体](Media/Adu) | 通用版规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Media/Adu) |
-| [成人媒体 · 越南版](Media/Adu-vietnam.list) | 越南版规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Media/Adu-vietnam.list) |
+| [日本媒体](Media/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/JapanMedia.list) |
+| [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
+| [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
+| [TMDB](TMDB) | 影视元数据 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TMDB) |
+| [Trakt](Trakt) | 影视记录服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Trakt) |
+| [歌词服务](Services/Lyrics.list) | 歌词相关端点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Lyrics.list) |
+| [115](Services/115.list) | 115 服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/115.list) |
+| [下载与支付](Services/Download-Payment.list) | 下载与支付相关例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Download-Payment.list) |
+| [游戏更新](Gameupdate) | 游戏更新流量 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Gameupdate) |
+| [TFT](TFT) | 云顶之弈相关规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TFT) |
+| [PUBG](PUBG) | PUBG 相关规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/PUBG) |
+| [成人媒体](Media/Adu) | 通用版规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Adu) |
+| [成人媒体 · 越南版](Media/Adu-vietnam.list) | 越南版规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Adu-vietnam.list) |
 
 ### 地区与网络
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/vngeneral) |
-| [英国](unitedkingdom) | 英国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/unitedkingdom) |
-| [俄罗斯](russia.list) | 俄罗斯地区规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/russia.list) |
-| [韩国](korea.list) | 韩国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/korea.list) |
-| [新加坡线路](Network/Singapore.list) | 指定使用新加坡线路的主机 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Network/Singapore.list) |
-| [IP 直连](Network/Direct-IP.list) | 按目标 IP 匹配的直连例外 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Network/Direct-IP.list) |
+| [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/vngeneral) |
+| [英国](unitedkingdom) | 英国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/unitedkingdom) |
+| [俄罗斯](russia.list) | 俄罗斯地区规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/russia.list) |
+| [韩国](korea.list) | 韩国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/korea.list) |
+| [新加坡线路](Network/Singapore.list) | 指定使用新加坡线路的主机 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Singapore.list) |
+| [IP 直连](Network/Direct-IP.list) | 按目标 IP 匹配的直连例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Direct-IP.list) |
 
 ### 应用例外与拦截
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [字节跳动直连](ByteDance/Direct.list) | 字节跳动服务与 SDK 接口 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/ByteDance/Direct.list) |
-| [豆瓣](Services/Douban.list) | 豆瓣域名 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Douban.list) |
-| [酷安](Services/Coolapk.list) | 酷安头像服务 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Coolapk.list) |
-| [Quora](quora.list) | 问答平台 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/quora.list) |
-| [官服规则](guanfu.list) | 现有官服分流清单 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/guanfu.list) |
-| [反诈规则](Fanzha) | 现有反诈相关清单 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Fanzha) |
-| [Apple 广告端点](Apple/Ads-PreMatch.list) | Surge 可在引用行配置预匹配 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Apple/Ads-PreMatch.list) |
-| [拦截例外](Overrides/Reject.list) | 广告与追踪端点 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Overrides/Reject.list) |
+| [字节跳动直连](ByteDance/Direct.list) | 字节跳动服务与 SDK 接口 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/ByteDance/Direct.list) |
+| [豆瓣](Services/Douban.list) | 豆瓣域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Douban.list) |
+| [酷安](Services/Coolapk.list) | 酷安头像服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Coolapk.list) |
+| [Quora](quora.list) | 问答平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/quora.list) |
+| [官服规则](guanfu.list) | 现有官服分流清单 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/guanfu.list) |
+| [反诈规则](Fanzha) | 现有反诈相关清单 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Fanzha) |
+| [Apple 广告端点](Apple/Ads-PreMatch.list) | Surge 可在引用行配置预匹配 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Ads-PreMatch.list) |
+| [拦截例外](Overrides/Reject.list) | 广告与追踪端点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Overrides/Reject.list) |
 
 ## 维护说明
 
 - [越南通用](vngeneral)用于当前 Mihomo 配置。[vietnam.list](vietnam.list)保留独立条目，合并前逐条核对用途。
-- [成人媒体通用版](Media/Adu)为主维护文件。[sese.list](sese.list) 和 [Stash 规则](Stash/Rules/Adu.list) 是兼容入口，通用规则变动时同步核对。
+- 成人媒体通用版统一使用 [Media/Adu](Media/Adu)，Surge、Mihomo 和 Stash 可引用同一个 Raw 地址。
 - [台湾 IPv4 清单](dailoanip.list)的来源和生成日期尚未核实。启用前先核对网段归属与更新方式。
 - [Gameupdate](Gameupdate)按游戏资源域名匹配。需要补游戏下载节点时，按日志添加具体主机，避免把共享 CDN 的其他业务一起直连。
 - [Meta 社交旧清单](facebook.list)含 Facebook、Instagram 和 ASN 匹配，引用前核对客户端支持与策略范围。
 
 
 - 域名需要连同子域名匹配时使用 `DOMAIN-SUFFIX`，单一主机使用 `DOMAIN`。共用域名（如 `meta.com`）修改前应核对命中顺序。
-- 规则统一在 `main`。成人媒体通用版和越南版各用独立文件。[sese.list](sese.list) 以及 `Stash/Overrides/` 下的路径供已有配置继续使用。
+- 规则统一在 `main`。成人媒体通用版和越南版分别按各自的匹配范围维护。
 - 修改后刷新规则集，用客户端日志检查命中。如果改了 provider 定义、策略或顺序，刷新整份配置。
 
 <details>

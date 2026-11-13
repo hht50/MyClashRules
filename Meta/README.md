@@ -13,7 +13,7 @@
 如果希望 Muse 走现有的 `Meta` 策略组，可以在 `[Rule]` 中加入：
 
 ```ini
-RULE-SET,https://raw.githubusercontent.com/hht50/MyClashRules/main/Meta/Muse.list,Meta
+RULE-SET,https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Meta/Muse.list,Meta
 ```
 
 `meta.com` 是共用域名。若 Muse 和其他 Meta 产品使用不同策略，先确认哪些请求应优先匹配。Surge 按顺序采用首条匹配的规则。

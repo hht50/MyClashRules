@@ -4,7 +4,6 @@
 
 DOMAIN-KEYWORD,hentai
 DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,av
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,hanime
 DOMAIN-KEYWORD,pornhub
@@ -32,7 +31,6 @@ DOMAIN-SUFFIX,porntube.com       # 综合视频站
 DOMAIN-SUFFIX,pornmd.com         # 综合视频站
 DOMAIN-SUFFIX,pornbest.org       # 综合视频站
 DOMAIN-SUFFIX,freeporn.com       # 免费综合视频
-DOMAIN-SUFFIX,porn.com           # 综合成人视频
 DOMAIN-SUFFIX,lxxx.com           # 综合成人视频
 DOMAIN-SUFFIX,largeporntube.com  # 综合视频站
 DOMAIN-SUFFIX,perfectgirls.com   # 综合视频站
@@ -73,7 +71,6 @@ DOMAIN-SUFFIX,sunporno.com       # 综合视频站
 DOMAIN-SUFFIX,pornerbros.com     # 综合视频站
 DOMAIN-SUFFIX,4tube.com          # 综合视频站
 DOMAIN-SUFFIX,petardas.com       # 综合视频站（西班牙语）
-DOMAIN-SUFFIX,vporn.com          # 综合视频站
 DOMAIN-SUFFIX,freeones.com       # 女优目录/视频站
 DOMAIN-SUFFIX,literotica.com     # 成人文学/情色小说站
 DOMAIN-SUFFIX,adult-empire.com   # 综合成人内容商店
@@ -128,8 +125,6 @@ DOMAIN-SUFFIX,javhoo.com         # JAV 搜索站
 DOMAIN-SUFFIX,jav.gallery        # JAV 图库/视频站
 DOMAIN-SUFFIX,avmoo.com          # JAV 番号数据库
 DOMAIN-SUFFIX,avsox.com          # JAV 番号数据库（无码）
-DOMAIN-SUFFIX,vjav.com           # JAV 在线播放
-DOMAIN-SUFFIX,javcup.com         # JAV 在线播放
 
 # 中文/亚洲 AV 站
 DOMAIN-SUFFIX,91porn.com         # 中文用户自制/AV分享站
@@ -306,7 +301,6 @@ DOMAIN-SUFFIX,stripchat.com          # Stripchat成人直播平台
 DOMAIN-SUFFIX,stripchat.global       # Stripchat国际域名
 DOMAIN-SUFFIX,mavrtracktor.com       # 相关追踪服务
 DOMAIN-SUFFIX,sacfedge.com           # 相关边缘网络服务
-DOMAIN-SUFFIX,doppiocdn.org          # Doppio CDN服务
 DOMAIN-SUFFIX,doppiocdn.com          # Doppio CDN服务
 DOMAIN-SUFFIX,growcdnssedge.com       # CDN边缘网络服务
 

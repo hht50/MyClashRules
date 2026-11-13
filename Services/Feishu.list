@@ -1,7 +1,9 @@
-# 飞书中国版服务域名
+# 飞书中国版与 Lark 国际版服务域名
 # 飞书会议网络参考 https://www.feishu.cn/hc/en-US/articles/921458789503-ensure-feishu-rooms-runs-smoothly-on-the-company-intranet
 # 共享基础设施和会议 IP 段按需在独立规则中维护。
+# Lark 网络参考 https://www.larksuite.com/hc/ja-JP/articles/360044784554
 
+# 飞书
 DOMAIN-SUFFIX,feishu.cn
 DOMAIN-SUFFIX,feishu.net
 DOMAIN-SUFFIX,feishucdn.com
@@ -10,3 +12,10 @@ DOMAIN-SUFFIX,feishupkg.com
 DOMAIN-SUFFIX,feishuapp.cn
 DOMAIN-SUFFIX,getfeishu.cn
 DOMAIN-SUFFIX,feishu-3rd-party-services.com
+
+# Lark 及共用办公域名
+DOMAIN-SUFFIX,larksuite.com
+DOMAIN-SUFFIX,larkoffice.com
+DOMAIN-SUFFIX,larksuitecdn.com
+DOMAIN-SUFFIX,larksuitepkg.com
+DOMAIN-SUFFIX,larkenterprise.com

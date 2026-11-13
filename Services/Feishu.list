@@ -1,0 +1,12 @@
+# 飞书中国版服务域名
+# 飞书会议网络参考 https://www.feishu.cn/hc/en-US/articles/921458789503-ensure-feishu-rooms-runs-smoothly-on-the-company-intranet
+# 共享基础设施和会议 IP 段按需在独立规则中维护。
+
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,feishu.net
+DOMAIN-SUFFIX,feishucdn.com
+DOMAIN-SUFFIX,feishuimg.com
+DOMAIN-SUFFIX,feishupkg.com
+DOMAIN-SUFFIX,feishuapp.cn
+DOMAIN-SUFFIX,getfeishu.cn
+DOMAIN-SUFFIX,feishu-3rd-party-services.com

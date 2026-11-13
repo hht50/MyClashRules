@@ -56,7 +56,7 @@ rules:
 | [Microsoft 直连](Microsoft/Direct.list) | 微软服务例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Microsoft/Direct.list) |
 | [Parallels 直连](Parallels/Direct.list) | 虚拟机软件服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Parallels/Direct.list) |
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
-| [达利集团](Services/DaliGroup.list) | 企业服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/DaliGroup.list) |
+| [公司办公与认证](Services/Company-Office.list) | 企业服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Company-Office.list) |
 | [求职](Jobfind) | 求职站点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Jobfind) |
 | [Copilot](Copilot) | Microsoft Copilot | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Copilot) |
 | [AI 服务](ai) | AI 服务分流 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/ai) |
@@ -139,7 +139,7 @@ rules:
 
 | 策略 | 规则与参数 |
 | --- | --- |
-| `DIRECT` | 小米互联、115、Microsoft、Parallels、字节跳动、酷安。IP 直连带 `no-resolve`，达利集团带 `extended-matching` |
+| `DIRECT` | 小米互联、115、Microsoft、Parallels、字节跳动、酷安。IP 直连带 `no-resolve`，公司办公规则带 `extended-matching` |
 | `Apple 推送` | 本仓库的 APNs 补充清单与 [外部 apns.list](https://github.com/QuixoticHeart/rule-set/blob/ruleset/loon/apns.list)。原组包含香港负载均衡、香港智选和直连 |
 | `REJECT` | 拦截例外。Apple 广告端点在 Surge 引用行带 `pre-matching` |
 | 地区策略 | 极光推送用香港负载均衡，歌词用香港智选，日本媒体用日本智选，新加坡线路用新加坡智选 |

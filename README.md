@@ -11,7 +11,7 @@
 | [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/Feishu.list) |
 | [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Apple/Push.list) |
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Xiaomi/HyperConnect.list) |
-| [越南通用](https://github.com/hht50/MyClashRules/blob/vietnam/vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/vietnam/vngeneral) |
+| [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/vngeneral) |
 | [115](Services/115.list) | 115 服务域名 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Services/115.list) |
 
 ## 快速接入
@@ -87,14 +87,14 @@ rules:
 | [游戏更新](Gameupdate) | 游戏更新流量 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Gameupdate) |
 | [TFT](TFT) | 云顶之弈相关规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/TFT) |
 | [PUBG](PUBG) | PUBG 相关规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/PUBG) |
-| [成人媒体](Media/Adu) | 主分支规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Media/Adu) |
-| [成人媒体 · 越南版](https://github.com/hht50/MyClashRules/blob/vietnam/Media/Adu) | 越南分支规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/vietnam/Media/Adu) |
+| [成人媒体](Media/Adu) | 通用版规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Media/Adu) |
+| [成人媒体 · 越南版](Media/Adu-vietnam.list) | 越南版规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/Media/Adu-vietnam.list) |
 
 ### 地区与网络
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [越南通用](https://github.com/hht50/MyClashRules/blob/vietnam/vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/vietnam/vngeneral) |
+| [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/vngeneral) |
 | [英国](unitedkingdom) | 英国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/unitedkingdom) |
 | [俄罗斯](russia.list) | 俄罗斯地区规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/russia.list) |
 | [韩国](korea.list) | 韩国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/MyClashRules/main/korea.list) |
@@ -117,7 +117,7 @@ rules:
 ## 维护说明
 
 - 域名需要连同子域名匹配时使用 `DOMAIN-SUFFIX`，单一主机使用 `DOMAIN`。共用域名（如 `meta.com`）修改前应核对命中顺序。
-- 保留现有路径和分支引用。 `main` 与 `vietnam` 的 `Media/Adu` 分别维护。[sese.list](sese.list) 以及 `Stash/Overrides/` 下的路径供已有配置继续使用。
+- 规则统一在 `main`。成人媒体通用版和越南版各用独立文件。[sese.list](sese.list) 以及 `Stash/Overrides/` 下的路径供已有配置继续使用。
 - 修改后刷新规则集，用客户端日志检查命中。如果改了 provider 定义、策略或顺序，刷新整份配置。
 
 <details>
